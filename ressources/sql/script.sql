@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS test;
+CREATE DATABASE IF NOT EXISTS test;
+USE test;
+
 CREATE TABLE `TEACHERS` (
   `id` INT PRIMARY KEY AUTO_INCREMENT,
   `last_name` VARCHAR(40),
@@ -28,7 +32,7 @@ CREATE TABLE `USERS` (
 );
 
 CREATE TABLE `PARTICIPATE` (
-  `user_id` INT, 
+  `user_id` INT,
   `session_id` INT
 );
 
@@ -42,5 +46,4 @@ VALUES ('Margot', 'DELAHAYE'),
 
 
 INSERT INTO USERS (first_name, last_name, admin, email, password)
-VALUES ('Admin', 'Admin', true, 'yoga@studio.com', '$2a$10$.Hsa/ZjUVaHqi0tp9xieMeewrnZxrZ5pQRzddUXE/WjDu2ZThe6Iq'); 
-
+VALUES ('Admin', 'Admin', true, 'yoga@studio.com', '$2a$10$.Hsa/ZjUVaHqi0tp9xieMeewrnZxrZ5pQRzddUXE/WjDu2ZThe6Iq');
