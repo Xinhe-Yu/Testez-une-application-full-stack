@@ -9,22 +9,41 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { expect } from '@jest/globals';
 
 import { RegisterComponent } from './register.component';
+import { AuthService } from '../../services/auth.service';
+import { Router } from '@angular/router';
+import { RegisterRequest } from '../../interfaces/registerRequest.interface';
+import { of, throwError } from 'rxjs';
 
 describe('RegisterComponent', () => {
   let component: RegisterComponent;
   let fixture: ComponentFixture<RegisterComponent>;
+  let authServiceMock: jest.Mocked<AuthService>;
+  let routerMock: jest.Mocked<Router>;
 
   beforeEach(async () => {
+    authServiceMock = {
+      register: jest.fn(), // Mocked observable response
+    } as unknown as jest.Mocked<AuthService>;
+
+    routerMock = {
+      navigate: jest.fn(),
+    } as unknown as jest.Mocked<Router>;
+
+
     await TestBed.configureTestingModule({
       declarations: [RegisterComponent],
       imports: [
         BrowserAnimationsModule,
         HttpClientModule,
-        ReactiveFormsModule,  
+        ReactiveFormsModule,
         MatCardModule,
         MatFormFieldModule,
         MatIconModule,
         MatInputModule
+      ],
+      providers: [
+        { provide: AuthService, useValue: authServiceMock },
+        { provide: Router, useValue: routerMock }
       ]
     })
       .compileComponents();
@@ -37,4 +56,37 @@ describe('RegisterComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should call auth.Service.register and navigate to login on successful registration', () => {
+    const registerRequest: RegisterRequest = {
+      email: 'thomas@mountain.com',
+      firstName: 'Thomas',
+      lastName: 'Mann',
+      password: 'password'
+    };
+    component.form.setValue(registerRequest);
+    authServiceMock.register.mockReturnValue(of(undefined));
+
+    component.submit();
+
+    expect(authServiceMock.register).toHaveBeenCalledWith(registerRequest);
+    expect(routerMock.navigate).toHaveBeenCalledWith(['/login']);
+    expect(component.onError).toBeFalsy();
+  });
+
+  it('should set onError to true on registration failure', () => {
+    const registerRequest: RegisterRequest = {
+      email: 'thomas@mountain.com',
+      firstName: 'Thomas',
+      lastName: 'Mann',
+      password: 'password'
+    };
+    component.form.setValue(registerRequest);
+    authServiceMock.register.mockReturnValue(throwError(() => new Error('Registration failed')));
+
+    component.submit();
+    expect(authServiceMock.register).toHaveBeenCalledWith(registerRequest);
+    expect(routerMock.navigate).not.toHaveBeenCalled();
+    expect(component.onError).toBeTruthy();
+  })
 });
