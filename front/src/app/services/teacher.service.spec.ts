@@ -28,6 +28,36 @@ describe('TeacherService', () => {
     expect(service).toBeTruthy();
   });
 
+  describe('all', () => {
+    it('should return all teachers', () => {
+      const mockTeachers: Teacher[] = [
+        {
+          id: 1,
+          lastName: 'Castorp',
+          firstName: 'Hans',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          id: 2,
+          lastName: 'Ziemssen',
+          firstName: 'Joachim',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        }
+      ];
+      service.all().subscribe(teachers => {
+        expect(teachers).toEqual(mockTeachers)
+      });
+
+      const req = httpMock.expectOne(service['pathService']);
+      expect(req.request.method).toBe('GET');
+      req.flush(mockTeachers);
+    })
+
+
+  })
+
   describe('detail', () => {
     it('should return a teacher by id', () => {
       const mockTeacher: Teacher = {
