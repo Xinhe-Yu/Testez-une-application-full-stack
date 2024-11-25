@@ -1,9 +1,22 @@
 {
-  "extends": "../tsconfig.json",
+  "extends": "../tsconfig.json", // Adjust this path based on your directory structure
   "compilerOptions": {
-    "isolatedModules": false
+    "isolatedModules": false,
+    // Include Cypress types for TypeScript support
+    "types": [
+      "cypress"
+    ],
+    // Specify target and libraries for Cypress tests
+    "target": "es5",
+    "lib": [
+      "es5",
+      "dom"
+    ]
   },
+  // Include all TypeScript files in the Cypress directory
   "include": [
+    "e2e/**/*.ts",
+    "**/*.ts",
     "../node_modules/cypress"
   ]
 }

@@ -41,3 +41,56 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+import { SessionInformation } from '../../src/app/interfaces/sessionInformation.interface';
+
+/// <reference types="cypress" />
+Cypress.Commands.add('login', (email: string, password: string, fixture: SessionInformation) => {
+  cy.intercept('POST', '/api/auth/login', {
+    fixture: fixture, // Use the passed fixture
+    statusCode: 200
+  }).as('loginRequest');
+
+  cy.intercept('GET', '/api/session', (req) => {
+    req.headers['Authorization'] = 'Bearer fake-jwt-token';
+    req.reply({
+      statusCode: 200,
+      body: [
+        {
+          id: 1,
+          name: 'yoga',
+          description: 'relax yourself',
+          date: new Date('2024-11-20').toISOString(),
+          teacher_id: 1,
+          users: [],
+        }
+      ]
+    });
+  }).as('getSessions');
+
+  cy.visit('/login');
+  cy.get('input[formControlName=email]').type(email);
+  cy.get('input[formControlName=password]').type(`${password}{enter}{enter}`);
+  cy.wait('@loginRequest');
+  cy.wait('@getSessions', { timeout: 5000 });
+});
+
+Cypress.Commands.add('detail', (yogaSession) => {
+  cy.intercept('GET', '/api/session/1', { fixture: yogaSession }).as('getSessionDetail');
+  cy.intercept('GET', '/api/teacher/1', { fixture: 'teacher.json' }).as('getTeacherDetail');
+  cy.scrollTo('bottom');
+  cy.get('button').contains('Detail').click();
+  cy.url().should('include', '/detail/1');
+});
+
+Cypress.Commands.add('create', () => {
+  cy.intercept('GET', '/api/teacher', { fixture: 'teachers.json' }).as('getTeachers');
+  cy.get('button').contains('Create').click();
+  cy.url().should('include', '/create');
+
+});
+
+Cypress.Commands.add('edit', () => {
+  cy.intercept('GET', '/api/session/1', { fixture: 'yogaSession.json' }).as('getSessionDetail');
+  cy.intercept('GET', '/api/teacher', { fixture: 'teachers.json' }).as('getTeachers');
+  cy.get('button').contains('edit').click();
+});
