@@ -14,6 +14,7 @@ describe('Sessions Module', () => {
   it('should navigate to edit session page when Edit button is clicked', () => {
     cy.login(userEmail, userPassword, adminSession);
 
+    cy.scrollTo('bottom');
     cy.get('button').contains('Edit').first().click();
     cy.url().should('include', '/update/1'); // Adjust based on your routing
   });

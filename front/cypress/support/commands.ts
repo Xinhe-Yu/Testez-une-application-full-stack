@@ -41,6 +41,8 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+
 import { SessionInformation } from '../../src/app/interfaces/sessionInformation.interface';
 
 /// <reference types="cypress" />
@@ -90,7 +92,14 @@ Cypress.Commands.add('create', () => {
 });
 
 Cypress.Commands.add('edit', () => {
+  cy.scrollTo('bottom');
   cy.intercept('GET', '/api/session/1', { fixture: 'yogaSession.json' }).as('getSessionDetail');
   cy.intercept('GET', '/api/teacher', { fixture: 'teachers.json' }).as('getTeachers');
+
+  cy.scrollTo('bottom');
   cy.get('button').contains('edit').click();
 });
+
+Cypress.Commands.add('me', () => {
+  cy.get('button').contains('Account');
+})
