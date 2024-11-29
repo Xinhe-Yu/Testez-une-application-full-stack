@@ -1,0 +1,47 @@
+DROP ALL OBJECTS;
+
+CREATE TABLE TEACHERS (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  last_name VARCHAR(255),
+  first_name VARCHAR(255),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE SESSIONS (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR,
+  description VARCHAR,
+  date TIMESTAMP,
+  teacher_id INT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE USERS (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  last_name VARCHAR,
+  first_name VARCHAR,
+  admin BOOLEAN NOT NULL,
+  email VARCHAR,
+  password VARCHAR,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE PARTICIPATE (
+  user_id INT,
+  session_id INT
+);
+
+ALTER TABLE SESSIONS ADD FOREIGN KEY (teacher_id) REFERENCES TEACHERS (id);
+ALTER TABLE PARTICIPATE ADD FOREIGN KEY (user_id) REFERENCES USERS (id);
+ALTER TABLE PARTICIPATE ADD FOREIGN KEY (session_id) REFERENCES SESSIONS (id);
+
+-- Insert initial test data
+INSERT INTO USERS (first_name, last_name, admin, email, password)
+VALUES ('Admin', 'Admin', true, 'yoga@studio.com', '$2a$10$.Hsa/ZjUVaHqi0tp9xieMeewrnZxrZ5pQRzddUXE/WjDu2ZThe6Iq');
+
+INSERT INTO TEACHERS (first_name, last_name)
+VALUES ('Margot', 'DELAHAYE'),
+       ('Hélène', 'THIERCELIN');
