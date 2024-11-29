@@ -1,27 +1,35 @@
 describe('Login spec', () => {
-  it('Login successfull', () => {
-    cy.visit('/login')
+  beforeEach(() => {
+    cy.visit('/login');
+  });
 
+  it('should display login form', () => {
+    cy.get('mat-card-title').should('exist');
+    cy.get('input[formControlName=email]').should('exist');
+    cy.get('input[formControlName=password]').should('exist');
+    cy.get('button[type=submit]').should('exist').and('be.disabled');
+  });
+
+  it('should successfully login and redirect to sessions page', () => {
+    const userEmail = "yoga@studio.com";
+    const userPassword = "test!1234";
+    const userSession = "userSession.json";
+    cy.login(userEmail, userPassword, userSession);
+
+    cy.url().should('include', '/sessions');
+  });
+
+  it('should display error message on login failure', () => {
     cy.intercept('POST', '/api/auth/login', {
-      body: {
-        id: 1,
-        username: 'userName',
-        firstName: 'firstName',
-        lastName: 'lastName',
-        admin: true
-      },
-    })
+      statusCode: 401,
+      body: { message: 'Invalid credentials' }
+    }).as('loginRequest');
 
-    cy.intercept(
-      {
-        method: 'GET',
-        url: '/api/session',
-      },
-      []).as('session')
+    cy.get('input[formControlName=email]').type("wrong@studio.com");
+    cy.get('input[formControlName=password]').type(`${"test!1234"}{enter}{enter}`);
 
-    cy.get('input[formControlName=email]').type("yoga@studio.com")
-    cy.get('input[formControlName=password]').type(`${"test!1234"}{enter}{enter}`)
-
-    cy.url().should('include', '/sessions')
+    cy.wait('@loginRequest');
+    cy.get('p.error').should('contain', 'An error occurred');
+    cy.url().should('include', '/login');
   })
 });
