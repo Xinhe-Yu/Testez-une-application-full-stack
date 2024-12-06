@@ -1,10 +1,13 @@
 /// <reference types="cypress" />
 
-import { SessionInformation } from '../../src/app/interfaces/sessionInformation.interface';
-
 declare namespace Cypress {
-  interface Chainable {
-    login(email: string, password: string, fixture: SessionInformation): Chainable<void>;
-    detail: Chainable<void>;
+  type FixtureFileName = string;
+
+  interface Chainable<Subject> {
+    login(email: string, password: string, sessionFixture: FixtureFileName): Chainable<void>;
+    detail(yogaSession: FixtureFileName): Chainable<void>;
+    create(): Chainable<void>;
+    edit(): Chainable<void>;
+    me(): Chainable<void>;
   }
 }

@@ -15,7 +15,7 @@ describe('App Navigation Buttons', () => {
     cy.get('p').contains('You are admin').should('not.exist');
     cy.get('button').contains('delete').should('exist').click();
     cy.get('.mat-snack-bar-container').should('contain', 'Your account has been deleted !');
-    const baseUrl = Cypress.config().baseUrl.endsWith('/') ? Cypress.config().baseUrl : Cypress.config().baseUrl + '/';
+    const baseUrl = Cypress.config().baseUrl?.endsWith('/') ? Cypress.config().baseUrl : Cypress.config().baseUrl + '/';
     cy.url().should('eq', baseUrl);
     cy.get('span').contains('Login').should('be.visible');
 

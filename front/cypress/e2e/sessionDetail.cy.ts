@@ -11,7 +11,7 @@ describe('Detail Component', () => {
 
     cy.intercept('POST', `/api/session/1/participate/4`, {
       statusCode: 200,
-      body: {} // Mock response for successful participation
+      body: {}
     }).as('participate');
 
     cy.get('button').contains('Participate').click();
