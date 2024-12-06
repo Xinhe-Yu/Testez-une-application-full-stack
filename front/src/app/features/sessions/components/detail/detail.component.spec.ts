@@ -14,6 +14,8 @@ import { TeacherService } from 'src/app/services/teacher.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { of } from 'rxjs';
 import { MatIconModule } from '@angular/material/icon';
+import { Session } from '../../interfaces/session.interface';
+import { Teacher } from 'src/app/interfaces/teacher.interface';
 
 
 describe('DetailComponent', () => {
@@ -25,7 +27,7 @@ describe('DetailComponent', () => {
   let routerMock: jest.Mocked<Router>;
   let activatedRouteMock: jest.Mocked<ActivatedRoute>;
 
-  let mockSession = {
+  let mockSession: Session = {
     id: 1,
     name: 'yoga',
     description: 'relax your self',
@@ -33,7 +35,7 @@ describe('DetailComponent', () => {
     teacher_id: 1,
     users: [3],
   };
-  let mockTeacher = {
+  let mockTeacher: Teacher = {
     id: 1,
     lastName: 'Castorp',
     firstName: 'Hans',
@@ -71,8 +73,6 @@ describe('DetailComponent', () => {
         }
       }
     } as unknown as jest.Mocked<ActivatedRoute>;
-
-
 
     await TestBed.configureTestingModule({
       imports: [

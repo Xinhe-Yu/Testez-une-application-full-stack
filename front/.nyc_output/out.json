@@ -385,35 +385,35 @@
       }
     },
     "s": {
-      "0": 89,
-      "1": 89,
-      "2": 89,
-      "3": 5378,
-      "4": 67,
-      "5": 67,
-      "6": 67,
-      "7": 8,
-      "8": 8,
-      "9": 8,
-      "10": 75,
-      "11": 89,
-      "12": 89,
-      "13": 89,
-      "14": 89
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 629,
+      "4": 5,
+      "5": 5,
+      "6": 5,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 5,
+      "11": 5,
+      "12": 5,
+      "13": 5,
+      "14": 5
     },
     "f": {
-      "0": 89,
-      "1": 89,
-      "2": 5378,
-      "3": 67,
-      "4": 8,
-      "5": 75,
-      "6": 89
+      "0": 5,
+      "1": 5,
+      "2": 629,
+      "3": 5,
+      "4": 0,
+      "5": 5,
+      "6": 5
     },
     "b": {
       "0": [
-        89,
-        89
+        5,
+        5
       ]
     },
     "inputSourceMap": {
@@ -702,27 +702,27 @@
       }
     },
     "s": {
-      "0": 89,
-      "1": 6,
-      "2": 6,
-      "3": 6,
-      "4": 4,
-      "5": 89,
-      "6": 6,
-      "7": 89,
-      "8": 89
+      "0": 5,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 5,
+      "6": 0,
+      "7": 5,
+      "8": 5
     },
     "f": {
-      "0": 89,
-      "1": 6,
-      "2": 6,
-      "3": 4,
-      "4": 6
+      "0": 5,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
     },
     "b": {
       "0": [
-        6,
-        6
+        0,
+        0
       ]
     },
     "inputSourceMap": {
@@ -2229,139 +2229,139 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 28,
-      "5": 4,
-      "6": 4,
-      "7": 4,
-      "8": 4,
-      "9": 4,
-      "10": 4,
-      "11": 4,
-      "12": 4,
-      "13": 4,
-      "14": 4,
-      "15": 4,
-      "16": 4,
-      "17": 4,
-      "18": 4,
-      "19": 4,
-      "20": 38,
-      "21": 6,
-      "22": 6,
-      "23": 6,
-      "24": 6,
-      "25": 6,
-      "26": 6,
-      "27": 6,
-      "28": 6,
-      "29": 6,
-      "30": 6,
-      "31": 6,
-      "32": 6,
-      "33": 6,
-      "34": 6,
-      "35": 6,
-      "36": 6,
-      "37": 6,
-      "38": 6,
-      "39": 6,
-      "40": 6,
-      "41": 6,
-      "42": 38,
-      "43": 32,
-      "44": 32,
-      "45": 32,
-      "46": 32,
-      "47": 32,
-      "48": 32,
-      "49": 32,
-      "50": 32,
-      "51": 32,
-      "52": 32,
-      "53": 32,
-      "54": 32,
-      "55": 32,
-      "56": 89,
-      "57": 6,
-      "58": 6,
-      "59": 6,
-      "60": 6,
-      "61": 6,
-      "62": 6,
-      "63": 2,
-      "64": 4,
-      "65": 4,
-      "66": 4,
-      "67": 4,
-      "68": 89,
-      "69": 6,
-      "70": 89,
-      "71": 68,
-      "72": 6,
-      "73": 6,
-      "74": 2,
-      "75": 6,
-      "76": 6,
-      "77": 6,
-      "78": 6,
-      "79": 6,
-      "80": 6,
-      "81": 6,
-      "82": 6,
-      "83": 6,
-      "84": 68,
-      "85": 62,
-      "86": 62,
-      "87": 89
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "31": 0,
+      "32": 0,
+      "33": 0,
+      "34": 0,
+      "35": 0,
+      "36": 0,
+      "37": 0,
+      "38": 0,
+      "39": 0,
+      "40": 0,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "47": 0,
+      "48": 0,
+      "49": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 5,
+      "57": 0,
+      "58": 0,
+      "59": 0,
+      "60": 0,
+      "61": 0,
+      "62": 0,
+      "63": 0,
+      "64": 0,
+      "65": 0,
+      "66": 0,
+      "67": 0,
+      "68": 5,
+      "69": 0,
+      "70": 5,
+      "71": 0,
+      "72": 0,
+      "73": 0,
+      "74": 0,
+      "75": 0,
+      "76": 0,
+      "77": 0,
+      "78": 0,
+      "79": 0,
+      "80": 0,
+      "81": 0,
+      "82": 0,
+      "83": 0,
+      "84": 0,
+      "85": 0,
+      "86": 0,
+      "87": 5
     },
     "f": {
-      "0": 10,
-      "1": 28,
-      "2": 4,
-      "3": 38,
-      "4": 89,
-      "5": 6,
-      "6": 6,
-      "7": 6,
-      "8": 2,
-      "9": 4,
-      "10": 4,
-      "11": 6,
-      "12": 68,
-      "13": 2
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 5,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0
     },
     "b": {
       "0": [
-        2,
-        8
+        0,
+        0
       ],
       "1": [
-        4,
-        24
+        0,
+        0
       ],
       "2": [
-        6,
-        32
+        0,
+        0
       ],
       "3": [
-        32,
-        6
+        0,
+        0
       ],
       "4": [
-        6,
-        6
+        0,
+        0
       ],
       "5": [
-        6,
-        62
+        0,
+        0
       ],
       "6": [
-        62,
-        6
+        0,
+        0
       ]
     },
     "inputSourceMap": {
@@ -2654,18 +2654,18 @@
       }
     },
     "s": {
-      "0": 89,
-      "1": 89,
+      "0": 5,
+      "1": 5,
       "2": 0,
-      "3": 89,
+      "3": 5,
       "4": 0,
       "5": 0,
       "6": 0,
       "7": 0,
-      "8": 89
+      "8": 5
     },
     "f": {
-      "0": 89,
+      "0": 5,
       "1": 0,
       "2": 0
     },
@@ -2991,32 +2991,32 @@
       }
     },
     "s": {
-      "0": 89,
-      "1": 67,
-      "2": 67,
-      "3": 75,
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5,
       "4": 0,
       "5": 0,
-      "6": 75,
-      "7": 89,
-      "8": 67,
-      "9": 89,
-      "10": 89
+      "6": 5,
+      "7": 5,
+      "8": 5,
+      "9": 5,
+      "10": 5
     },
     "f": {
-      "0": 89,
-      "1": 67,
-      "2": 75,
-      "3": 67
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5
     },
     "b": {
       "0": [
         0,
-        75
+        5
       ],
       "1": [
-        67,
-        67
+        5,
+        5
       ]
     },
     "inputSourceMap": {
@@ -3333,32 +3333,32 @@
       }
     },
     "s": {
-      "0": 89,
-      "1": 89,
-      "2": 89,
-      "3": 97,
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5,
       "4": 0,
       "5": 0,
-      "6": 97,
-      "7": 89,
-      "8": 89,
-      "9": 89,
-      "10": 89
+      "6": 5,
+      "7": 5,
+      "8": 5,
+      "9": 5,
+      "10": 5
     },
     "f": {
-      "0": 89,
-      "1": 89,
-      "2": 97,
-      "3": 89
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5
     },
     "b": {
       "0": [
         0,
-        97
+        5
       ],
       "1": [
-        89,
-        89
+        5,
+        5
       ]
     },
     "inputSourceMap": {
@@ -3687,30 +3687,30 @@
       }
     },
     "s": {
-      "0": 89,
-      "1": 89,
-      "2": 89,
-      "3": 67,
-      "4": 67,
-      "5": 89,
-      "6": 89,
-      "7": 89,
-      "8": 89,
-      "9": 89,
-      "10": 89
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 5,
+      "7": 5,
+      "8": 5,
+      "9": 5,
+      "10": 5
     },
     "f": {
-      "0": 89,
-      "1": 89,
-      "2": 67,
-      "3": 67,
-      "4": 89,
-      "5": 89
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5
     },
     "b": {
       "0": [
-        89,
-        89
+        5,
+        5
       ]
     },
     "inputSourceMap": {
@@ -3746,792 +3746,476 @@
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
     "hash": "d6a6b7512e877c35d0b06347efe3dff4a16507f5"
   },
-  "/root/code/OC/Testez-une-application-full-stack/front/src/app/features/auth/services/auth.service.ts": {
-    "path": "/root/code/OC/Testez-une-application-full-stack/front/src/app/features/auth/services/auth.service.ts",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 3,
-          "column": 38
-        },
-        "end": {
-          "line": 30,
-          "column": 4
-        }
-      },
-      "1": {
-        "start": {
-          "line": 6,
-          "column": 6
-        },
-        "end": {
-          "line": 6,
-          "column": 35
-        }
-      },
-      "2": {
-        "start": {
-          "line": 7,
-          "column": 6
-        },
-        "end": {
-          "line": 7,
-          "column": 36
-        }
-      },
-      "3": {
-        "start": {
-          "line": 11,
-          "column": 6
-        },
-        "end": {
-          "line": 11,
-          "column": 83
-        }
-      },
-      "4": {
-        "start": {
-          "line": 15,
-          "column": 6
-        },
-        "end": {
-          "line": 15,
-          "column": 77
-        }
-      },
-      "5": {
-        "start": {
-          "line": 20,
-          "column": 2
-        },
-        "end": {
-          "line": 22,
-          "column": 4
-        }
-      },
-      "6": {
-        "start": {
-          "line": 21,
-          "column": 4
-        },
-        "end": {
-          "line": 21,
-          "column": 62
-        }
-      },
-      "7": {
-        "start": {
-          "line": 24,
-          "column": 2
-        },
-        "end": {
-          "line": 28,
-          "column": 5
-        }
-      },
-      "8": {
-        "start": {
-          "line": 29,
-          "column": 2
-        },
-        "end": {
-          "line": 29,
-          "column": 21
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 3,
-            "column": 39
-          },
-          "end": {
-            "line": 3,
-            "column": 40
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 3,
-            "column": 45
-          },
-          "end": {
-            "line": 30,
-            "column": 1
-          }
-        },
-        "line": 3
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 5,
-            "column": 4
-          },
-          "end": {
-            "line": 5,
-            "column": 5
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 5,
-            "column": 28
-          },
-          "end": {
-            "line": 8,
-            "column": 5
-          }
-        },
-        "line": 5
-      },
-      "2": {
-        "name": "(anonymous_2)",
-        "decl": {
-          "start": {
-            "line": 10,
-            "column": 4
-          },
-          "end": {
-            "line": 10,
-            "column": 5
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 10,
-            "column": 30
-          },
-          "end": {
-            "line": 12,
-            "column": 5
-          }
-        },
-        "line": 10
-      },
-      "3": {
-        "name": "(anonymous_3)",
-        "decl": {
-          "start": {
-            "line": 14,
-            "column": 4
-          },
-          "end": {
-            "line": 14,
-            "column": 5
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 14,
-            "column": 24
-          },
-          "end": {
-            "line": 16,
-            "column": 5
-          }
-        },
-        "line": 14
-      },
-      "4": {
-        "name": "AuthService_Factory",
-        "decl": {
-          "start": {
-            "line": 20,
-            "column": 30
-          },
-          "end": {
-            "line": 20,
-            "column": 49
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 20,
-            "column": 53
-          },
-          "end": {
-            "line": 22,
-            "column": 3
-          }
-        },
-        "line": 20
-      }
-    },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 21,
-            "column": 16
-          },
-          "end": {
-            "line": 21,
-            "column": 32
-          }
-        },
-        "type": "binary-expr",
-        "locations": [
-          {
-            "start": {
-              "line": 21,
-              "column": 16
-            },
-            "end": {
-              "line": 21,
-              "column": 17
-            }
-          },
-          {
-            "start": {
-              "line": 21,
-              "column": 21
-            },
-            "end": {
-              "line": 21,
-              "column": 32
-            }
-          }
-        ],
-        "line": 21
-      }
-    },
-    "s": {
-      "0": 89,
-      "1": 89,
-      "2": 89,
-      "3": 6,
-      "4": 69,
-      "5": 89,
-      "6": 89,
-      "7": 89,
-      "8": 89
-    },
-    "f": {
-      "0": 89,
-      "1": 89,
-      "2": 6,
-      "3": 69,
-      "4": 89
-    },
-    "b": {
-      "0": [
-        89,
-        89
-      ]
-    },
-    "inputSourceMap": {
-      "version": 3,
-      "mappings": ";;AAUA,WAAaA,WAAb;EAAM,MAAOA,WAAP,CAAkB;IAItBC,YAAoBC,UAApB,EAA0C;MAAtB;MAFZ,mBAAc,UAAd;IAEuC;;IAExCC,QAAQ,CAACC,eAAD,EAAiC;MAC9C,OAAO,KAAKF,UAAL,CAAgBG,IAAhB,CAA2B,GAAG,KAAKC,WAAW,WAA9C,EAA2DF,eAA3D,CAAP;IACD;;IAEMG,KAAK,CAACC,YAAD,EAA2B;MACrC,OAAO,KAAKN,UAAL,CAAgBG,IAAhB,CAAyC,GAAG,KAAKC,WAAW,QAA5D,EAAsEE,YAAtE,CAAP;IACD;;EAZqB;;;qBAAXR,aAAWS;EAAA;;;WAAXT;IAAWU,SAAXV,WAAW;IAAAW,YAFV;;EAEd,OAAaX,WAAb;AAAA",
-      "names": [
-        "AuthService",
-        "constructor",
-        "httpClient",
-        "register",
-        "registerRequest",
-        "post",
-        "pathService",
-        "login",
-        "loginRequest",
-        "i0",
-        "factory",
-        "providedIn"
-      ],
-      "sourceRoot": "",
-      "sources": [
-        "/root/code/OC/Testez-une-application-full-stack/front/src/app/features/auth/services/auth.service.ts"
-      ],
-      "sourcesContent": [
-        "import { HttpClient } from '@angular/common/http';\nimport { Injectable } from '@angular/core';\nimport { Observable } from 'rxjs';\nimport { LoginRequest } from '../interfaces/loginRequest.interface';\nimport { RegisterRequest } from '../interfaces/registerRequest.interface';\nimport { SessionInformation } from 'src/app/interfaces/sessionInformation.interface';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class AuthService {\n\n  private pathService = 'api/auth';\n\n  constructor(private httpClient: HttpClient) { }\n\n  public register(registerRequest: RegisterRequest): Observable<void> {\n    return this.httpClient.post<void>(`${this.pathService}/register`, registerRequest);\n  }\n\n  public login(loginRequest: LoginRequest): Observable<SessionInformation> {\n    return this.httpClient.post<SessionInformation>(`${this.pathService}/login`, loginRequest);\n  }\n}\n"
-      ]
-    },
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "fb3bc3ae8352878bdcf0eb91ff5f3b1403157a76"
-  },
   "/root/code/OC/Testez-une-application-full-stack/front/src/app/app.component.ts": {
     "path": "/root/code/OC/Testez-une-application-full-stack/front/src/app/app.component.ts",
     "statementMap": {
       "0": {
         "start": {
-          "line": 10,
+          "line": 9,
           "column": 2
         },
         "end": {
-          "line": 27,
+          "line": 26,
           "column": 3
         }
       },
       "1": {
         "start": {
-          "line": 11,
+          "line": 10,
           "column": 16
         },
         "end": {
-          "line": 11,
+          "line": 10,
           "column": 37
         }
       },
       "2": {
         "start": {
-          "line": 13,
+          "line": 12,
           "column": 4
         },
         "end": {
-          "line": 13,
+          "line": 12,
           "column": 46
         }
       },
       "3": {
         "start": {
-          "line": 14,
+          "line": 13,
           "column": 4
         },
         "end": {
-          "line": 14,
+          "line": 13,
           "column": 29
         }
       },
       "4": {
         "start": {
-          "line": 15,
+          "line": 14,
           "column": 4
         },
         "end": {
-          "line": 15,
+          "line": 14,
           "column": 22
         }
       },
       "5": {
         "start": {
-          "line": 16,
+          "line": 15,
           "column": 4
         },
         "end": {
-          "line": 16,
+          "line": 15,
           "column": 36
         }
       },
       "6": {
         "start": {
-          "line": 17,
+          "line": 16,
           "column": 4
         },
         "end": {
-          "line": 17,
+          "line": 16,
           "column": 28
         }
       },
       "7": {
         "start": {
-          "line": 18,
+          "line": 17,
           "column": 4
         },
         "end": {
-          "line": 18,
+          "line": 17,
           "column": 22
         }
       },
       "8": {
         "start": {
-          "line": 19,
+          "line": 18,
           "column": 4
         },
         "end": {
-          "line": 19,
+          "line": 18,
           "column": 36
         }
       },
       "9": {
         "start": {
-          "line": 20,
+          "line": 19,
           "column": 4
         },
         "end": {
-          "line": 24,
+          "line": 23,
           "column": 7
         }
       },
       "10": {
         "start": {
-          "line": 21,
+          "line": 20,
           "column": 6
         },
         "end": {
-          "line": 21,
+          "line": 20,
           "column": 28
         }
       },
       "11": {
         "start": {
-          "line": 22,
+          "line": 21,
           "column": 21
         },
         "end": {
-          "line": 22,
+          "line": 21,
           "column": 39
         }
       },
       "12": {
         "start": {
-          "line": 23,
+          "line": 22,
           "column": 6
         },
         "end": {
-          "line": 23,
+          "line": 22,
           "column": 45
         }
       },
       "13": {
         "start": {
-          "line": 25,
+          "line": 24,
           "column": 4
         },
         "end": {
-          "line": 25,
+          "line": 24,
           "column": 27
         }
       },
       "14": {
         "start": {
-          "line": 26,
+          "line": 25,
           "column": 4
         },
         "end": {
-          "line": 26,
+          "line": 25,
           "column": 24
         }
       },
       "15": {
         "start": {
-          "line": 31,
+          "line": 30,
           "column": 2
         },
         "end": {
-          "line": 38,
+          "line": 37,
           "column": 3
         }
       },
       "16": {
         "start": {
-          "line": 32,
+          "line": 31,
           "column": 4
         },
         "end": {
-          "line": 32,
+          "line": 31,
           "column": 46
         }
       },
       "17": {
         "start": {
-          "line": 33,
+          "line": 32,
           "column": 4
         },
         "end": {
-          "line": 33,
+          "line": 32,
           "column": 26
         }
       },
       "18": {
         "start": {
-          "line": 34,
+          "line": 33,
           "column": 4
         },
         "end": {
-          "line": 34,
+          "line": 33,
           "column": 22
         }
       },
       "19": {
         "start": {
-          "line": 35,
+          "line": 34,
           "column": 4
         },
         "end": {
-          "line": 35,
+          "line": 34,
           "column": 36
         }
       },
       "20": {
         "start": {
-          "line": 36,
+          "line": 35,
           "column": 4
         },
         "end": {
-          "line": 36,
+          "line": 35,
           "column": 29
         }
       },
       "21": {
         "start": {
-          "line": 37,
+          "line": 36,
           "column": 4
         },
         "end": {
-          "line": 37,
+          "line": 36,
           "column": 24
         }
       },
       "22": {
         "start": {
-          "line": 41,
+          "line": 40,
           "column": 39
         },
         "end": {
-          "line": 95,
+          "line": 93,
           "column": 4
         }
       },
       "23": {
         "start": {
-          "line": 44,
+          "line": 43,
           "column": 6
         },
         "end": {
-          "line": 44,
-          "column": 37
+          "line": 43,
+          "column": 27
         }
       },
       "24": {
         "start": {
-          "line": 45,
+          "line": 44,
           "column": 6
         },
         "end": {
-          "line": 45,
-          "column": 27
+          "line": 44,
+          "column": 43
         }
       },
       "25": {
         "start": {
-          "line": 46,
+          "line": 48,
           "column": 6
         },
         "end": {
-          "line": 46,
-          "column": 43
+          "line": 48,
+          "column": 45
         }
       },
       "26": {
         "start": {
-          "line": 50,
+          "line": 52,
           "column": 6
         },
         "end": {
-          "line": 50,
-          "column": 45
+          "line": 52,
+          "column": 35
         }
       },
       "27": {
         "start": {
-          "line": 54,
+          "line": 53,
           "column": 6
         },
         "end": {
-          "line": 54,
-          "column": 35
+          "line": 53,
+          "column": 33
         }
       },
       "28": {
         "start": {
-          "line": 55,
-          "column": 6
+          "line": 58,
+          "column": 2
         },
         "end": {
-          "line": 55,
-          "column": 33
+          "line": 60,
+          "column": 4
         }
       },
       "29": {
         "start": {
-          "line": 60,
-          "column": 2
+          "line": 59,
+          "column": 4
         },
         "end": {
-          "line": 62,
-          "column": 4
+          "line": 59,
+          "column": 109
         }
       },
       "30": {
         "start": {
-          "line": 61,
-          "column": 4
+          "line": 62,
+          "column": 2
         },
         "end": {
-          "line": 61,
-          "column": 147
+          "line": 91,
+          "column": 5
         }
       },
       "31": {
         "start": {
-          "line": 64,
-          "column": 2
+          "line": 69,
+          "column": 6
         },
         "end": {
-          "line": 93,
-          "column": 5
+          "line": 80,
+          "column": 7
         }
       },
       "32": {
         "start": {
-          "line": 71,
-          "column": 6
+          "line": 70,
+          "column": 8
         },
         "end": {
-          "line": 82,
-          "column": 7
+          "line": 70,
+          "column": 71
         }
       },
       "33": {
         "start": {
-          "line": 72,
+          "line": 71,
           "column": 8
         },
         "end": {
-          "line": 72,
-          "column": 71
+          "line": 71,
+          "column": 33
         }
       },
       "34": {
         "start": {
-          "line": 73,
+          "line": 72,
           "column": 8
         },
         "end": {
-          "line": 73,
-          "column": 33
+          "line": 72,
+          "column": 26
         }
       },
       "35": {
         "start": {
-          "line": 74,
+          "line": 73,
           "column": 8
         },
         "end": {
-          "line": 74,
-          "column": 26
+          "line": 73,
+          "column": 70
         }
       },
       "36": {
         "start": {
-          "line": 75,
+          "line": 74,
           "column": 8
         },
         "end": {
-          "line": 75,
-          "column": 70
+          "line": 74,
+          "column": 30
         }
       },
       "37": {
         "start": {
-          "line": 76,
+          "line": 75,
           "column": 8
         },
         "end": {
-          "line": 76,
-          "column": 30
+          "line": 75,
+          "column": 119
         }
       },
       "38": {
         "start": {
-          "line": 77,
+          "line": 76,
           "column": 8
         },
         "end": {
-          "line": 77,
-          "column": 119
+          "line": 76,
+          "column": 26
         }
       },
       "39": {
         "start": {
-          "line": 78,
+          "line": 77,
           "column": 8
         },
         "end": {
-          "line": 78,
-          "column": 26
+          "line": 77,
+          "column": 36
         }
       },
       "40": {
         "start": {
-          "line": 79,
+          "line": 78,
           "column": 8
         },
         "end": {
-          "line": 79,
-          "column": 36
+          "line": 78,
+          "column": 41
         }
       },
       "41": {
         "start": {
-          "line": 80,
+          "line": 79,
           "column": 8
         },
         "end": {
-          "line": 80,
-          "column": 41
+          "line": 79,
+          "column": 28
         }
       },
       "42": {
         "start": {
-          "line": 81,
-          "column": 8
+          "line": 82,
+          "column": 6
         },
         "end": {
-          "line": 81,
-          "column": 28
+          "line": 87,
+          "column": 7
         }
       },
       "43": {
         "start": {
-          "line": 84,
-          "column": 6
+          "line": 83,
+          "column": 20
         },
         "end": {
-          "line": 89,
-          "column": 7
+          "line": 83,
+          "column": 37
         }
       },
       "44": {
         "start": {
           "line": 85,
-          "column": 20
+          "column": 8
         },
         "end": {
           "line": 85,
-          "column": 37
+          "column": 24
         }
       },
       "45": {
         "start": {
-          "line": 87,
+          "line": 86,
           "column": 8
         },
         "end": {
-          "line": 87,
-          "column": 24
+          "line": 86,
+          "column": 86
         }
       },
       "46": {
         "start": {
-          "line": 88,
-          "column": 8
-        },
-        "end": {
-          "line": 88,
-          "column": 86
-        }
-      },
-      "47": {
-        "start": {
-          "line": 94,
+          "line": 92,
           "column": 2
         },
         "end": {
-          "line": 94,
+          "line": 92,
           "column": 22
         }
       }
@@ -4541,228 +4225,228 @@
         "name": "AppComponent_div_4_Template",
         "decl": {
           "start": {
-            "line": 9,
+            "line": 8,
             "column": 9
           },
           "end": {
-            "line": 9,
+            "line": 8,
             "column": 36
           }
         },
         "loc": {
           "start": {
-            "line": 9,
+            "line": 8,
             "column": 46
           },
           "end": {
-            "line": 28,
+            "line": 27,
             "column": 1
           }
         },
-        "line": 9
+        "line": 8
       },
       "1": {
         "name": "AppComponent_div_4_Template_span_click_5_listener",
         "decl": {
           "start": {
-            "line": 20,
+            "line": 19,
             "column": 36
           },
           "end": {
-            "line": 20,
+            "line": 19,
             "column": 85
           }
         },
         "loc": {
           "start": {
-            "line": 20,
+            "line": 19,
             "column": 88
           },
           "end": {
-            "line": 24,
+            "line": 23,
             "column": 5
           }
         },
-        "line": 20
+        "line": 19
       },
       "2": {
         "name": "AppComponent_ng_template_6_Template",
         "decl": {
           "start": {
-            "line": 30,
+            "line": 29,
             "column": 9
           },
           "end": {
-            "line": 30,
+            "line": 29,
             "column": 44
           }
         },
         "loc": {
           "start": {
-            "line": 30,
+            "line": 29,
             "column": 54
           },
           "end": {
-            "line": 39,
+            "line": 38,
             "column": 1
           }
         },
-        "line": 30
+        "line": 29
       },
       "3": {
         "name": "(anonymous_3)",
         "decl": {
           "start": {
-            "line": 41,
+            "line": 40,
             "column": 40
           },
           "end": {
-            "line": 41,
+            "line": 40,
             "column": 41
           }
         },
         "loc": {
           "start": {
-            "line": 41,
+            "line": 40,
             "column": 46
           },
           "end": {
-            "line": 95,
+            "line": 93,
             "column": 1
           }
         },
-        "line": 41
+        "line": 40
       },
       "4": {
         "name": "(anonymous_4)",
         "decl": {
           "start": {
-            "line": 43,
+            "line": 42,
             "column": 4
           },
           "end": {
-            "line": 43,
+            "line": 42,
             "column": 5
           }
         },
         "loc": {
           "start": {
-            "line": 43,
-            "column": 53
+            "line": 42,
+            "column": 40
+          },
+          "end": {
+            "line": 45,
+            "column": 5
+          }
+        },
+        "line": 42
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 47,
+            "column": 4
           },
           "end": {
             "line": 47,
             "column": 5
           }
         },
-        "line": 43
-      },
-      "5": {
-        "name": "(anonymous_5)",
-        "decl": {
+        "loc": {
           "start": {
-            "line": 49,
-            "column": 4
+            "line": 47,
+            "column": 16
           },
           "end": {
             "line": 49,
             "column": 5
           }
         },
-        "loc": {
+        "line": 47
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
           "start": {
-            "line": 49,
-            "column": 16
+            "line": 51,
+            "column": 4
           },
           "end": {
             "line": 51,
             "column": 5
           }
         },
-        "line": 49
-      },
-      "6": {
-        "name": "(anonymous_6)",
-        "decl": {
-          "start": {
-            "line": 53,
-            "column": 4
-          },
-          "end": {
-            "line": 53,
-            "column": 5
-          }
-        },
         "loc": {
           "start": {
-            "line": 53,
+            "line": 51,
             "column": 13
           },
           "end": {
-            "line": 56,
+            "line": 54,
             "column": 5
           }
         },
-        "line": 53
+        "line": 51
       },
       "7": {
         "name": "AppComponent_Factory",
         "decl": {
           "start": {
-            "line": 60,
+            "line": 58,
             "column": 31
           },
           "end": {
-            "line": 60,
+            "line": 58,
             "column": 51
           }
         },
         "loc": {
           "start": {
-            "line": 60,
+            "line": 58,
             "column": 55
           },
           "end": {
-            "line": 62,
+            "line": 60,
             "column": 3
           }
         },
-        "line": 60
+        "line": 58
       },
       "8": {
         "name": "AppComponent_Template",
         "decl": {
           "start": {
-            "line": 70,
+            "line": 68,
             "column": 23
           },
           "end": {
-            "line": 70,
+            "line": 68,
             "column": 44
           }
         },
         "loc": {
           "start": {
-            "line": 70,
+            "line": 68,
             "column": 54
           },
           "end": {
-            "line": 90,
+            "line": 88,
             "column": 5
           }
         },
-        "line": 70
+        "line": 68
       }
     },
     "branchMap": {
       "0": {
         "loc": {
           "start": {
-            "line": 10,
+            "line": 9,
             "column": 2
           },
           "end": {
-            "line": 27,
+            "line": 26,
             "column": 3
           }
         },
@@ -4770,35 +4454,35 @@
         "locations": [
           {
             "start": {
-              "line": 10,
+              "line": 9,
               "column": 2
             },
             "end": {
-              "line": 27,
+              "line": 26,
               "column": 3
             }
           },
           {
             "start": {
-              "line": 10,
+              "line": 9,
               "column": 2
             },
             "end": {
-              "line": 27,
+              "line": 26,
               "column": 3
             }
           }
         ],
-        "line": 10
+        "line": 9
       },
       "1": {
         "loc": {
           "start": {
-            "line": 31,
+            "line": 30,
             "column": 2
           },
           "end": {
-            "line": 38,
+            "line": 37,
             "column": 3
           }
         },
@@ -4806,35 +4490,35 @@
         "locations": [
           {
             "start": {
-              "line": 31,
+              "line": 30,
               "column": 2
             },
             "end": {
-              "line": 38,
+              "line": 37,
               "column": 3
             }
           },
           {
             "start": {
-              "line": 31,
+              "line": 30,
               "column": 2
             },
             "end": {
-              "line": 38,
+              "line": 37,
               "column": 3
             }
           }
         ],
-        "line": 31
+        "line": 30
       },
       "2": {
         "loc": {
           "start": {
-            "line": 61,
+            "line": 59,
             "column": 16
           },
           "end": {
-            "line": 61,
+            "line": 59,
             "column": 33
           }
         },
@@ -4842,35 +4526,35 @@
         "locations": [
           {
             "start": {
-              "line": 61,
+              "line": 59,
               "column": 16
             },
             "end": {
-              "line": 61,
+              "line": 59,
               "column": 17
             }
           },
           {
             "start": {
-              "line": 61,
+              "line": 59,
               "column": 21
             },
             "end": {
-              "line": 61,
+              "line": 59,
               "column": 33
             }
           }
         ],
-        "line": 61
+        "line": 59
       },
       "3": {
         "loc": {
           "start": {
-            "line": 71,
+            "line": 69,
             "column": 6
           },
           "end": {
-            "line": 82,
+            "line": 80,
             "column": 7
           }
         },
@@ -4878,35 +4562,35 @@
         "locations": [
           {
             "start": {
-              "line": 71,
+              "line": 69,
               "column": 6
             },
             "end": {
-              "line": 82,
+              "line": 80,
               "column": 7
             }
           },
           {
             "start": {
-              "line": 71,
+              "line": 69,
               "column": 6
             },
             "end": {
-              "line": 82,
+              "line": 80,
               "column": 7
             }
           }
         ],
-        "line": 71
+        "line": 69
       },
       "4": {
         "loc": {
           "start": {
-            "line": 84,
+            "line": 82,
             "column": 6
           },
           "end": {
-            "line": 89,
+            "line": 87,
             "column": 7
           }
         },
@@ -4914,119 +4598,117 @@
         "locations": [
           {
             "start": {
-              "line": 84,
+              "line": 82,
               "column": 6
             },
             "end": {
-              "line": 89,
+              "line": 87,
               "column": 7
             }
           },
           {
             "start": {
-              "line": 84,
+              "line": 82,
               "column": 6
             },
             "end": {
-              "line": 89,
+              "line": 87,
               "column": 7
             }
           }
         ],
-        "line": 84
+        "line": 82
       }
     },
     "s": {
-      "0": 1821,
-      "1": 67,
-      "2": 67,
-      "3": 67,
-      "4": 67,
-      "5": 67,
-      "6": 67,
-      "7": 67,
-      "8": 67,
-      "9": 67,
-      "10": 4,
-      "11": 4,
-      "12": 4,
-      "13": 67,
-      "14": 67,
-      "15": 3721,
-      "16": 97,
-      "17": 97,
-      "18": 97,
-      "19": 97,
-      "20": 97,
-      "21": 97,
-      "22": 89,
-      "23": 89,
-      "24": 89,
-      "25": 89,
-      "26": 5378,
-      "27": 4,
-      "28": 4,
-      "29": 89,
-      "30": 89,
-      "31": 89,
-      "32": 5467,
-      "33": 89,
-      "34": 89,
-      "35": 89,
-      "36": 89,
-      "37": 89,
-      "38": 89,
-      "39": 89,
-      "40": 89,
-      "41": 89,
-      "42": 89,
-      "43": 5467,
-      "44": 5378,
-      "45": 5378,
-      "46": 5378,
-      "47": 89
+      "0": 414,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 5,
+      "7": 5,
+      "8": 5,
+      "9": 5,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 5,
+      "14": 5,
+      "15": 225,
+      "16": 5,
+      "17": 5,
+      "18": 5,
+      "19": 5,
+      "20": 5,
+      "21": 5,
+      "22": 5,
+      "23": 5,
+      "24": 5,
+      "25": 629,
+      "26": 0,
+      "27": 0,
+      "28": 5,
+      "29": 5,
+      "30": 5,
+      "31": 634,
+      "32": 5,
+      "33": 5,
+      "34": 5,
+      "35": 5,
+      "36": 5,
+      "37": 5,
+      "38": 5,
+      "39": 5,
+      "40": 5,
+      "41": 5,
+      "42": 634,
+      "43": 629,
+      "44": 629,
+      "45": 629,
+      "46": 5
     },
     "f": {
-      "0": 1821,
-      "1": 4,
-      "2": 3721,
-      "3": 89,
-      "4": 89,
-      "5": 5378,
-      "6": 4,
-      "7": 89,
-      "8": 5467
+      "0": 414,
+      "1": 0,
+      "2": 225,
+      "3": 5,
+      "4": 5,
+      "5": 629,
+      "6": 0,
+      "7": 5,
+      "8": 634
     },
     "b": {
       "0": [
-        67,
-        1754
+        5,
+        409
       ],
       "1": [
-        97,
-        3624
+        5,
+        220
       ],
       "2": [
-        89,
-        89
+        5,
+        5
       ],
       "3": [
-        89,
-        5378
+        5,
+        629
       ],
       "4": [
-        5378,
-        89
+        629,
+        5
       ]
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": ";;;;;;;;;;;;IAGIA,4BAAiD,CAAjD,EAAiD,MAAjD,EAAiD,CAAjD;IAC2CA;IAAQA;IACjDA;IAAmCA;IAAOA;IAC1CA;IAAMA;MAAAA;MAAA;MAAA,OAASA,+BAAT;IAAiB,CAAjB;IAAgCA;IAAMA;;;;;;IAG5CA,4BAAK,CAAL,EAAK,MAAL,EAAK,CAAL;IACwCA;IAAKA;IAC3CA;IAAyCA;IAAQA;;;;ACCzD,WAAaC,YAAb;EAAM,MAAOA,YAAP,CAAmB;IACvBC,YACUC,WADV,EAEUC,MAFV,EAGUC,cAHV,EAGwC;MAF9B;MACA;MACA;IACT;;IAEMC,SAAS;MACd,OAAO,KAAKD,cAAL,CAAoBC,SAApB,EAAP;IACD;;IAEMC,MAAM;MACX,KAAKF,cAAL,CAAoBG,MAApB;MACA,KAAKJ,MAAL,CAAYK,QAAZ,CAAqB,CAAC,EAAD,CAArB;IACD;;EAdsB;;;qBAAZR,cAAYD;EAAA;;;UAAZC;IAAYS;IAAAC;IAAAC;IAAAC;IAAAC;MAAA;QDZzBd,+BAAiB,CAAjB,EAAiB,aAAjB,EAAiB,CAAjB,EAAiB,CAAjB,EAAiB,MAAjB;QAEUA;QAAQA;QACdA;;QAKAA;QAMFA;QACAA;QACEA;QACFA;;;;;;QAdQA;QAAAA,6DAA2B,UAA3B,EAA2Be,GAA3B;;;;;;ECSV,OAAad,YAAb;AAAA",
+      "mappings": ";;;;;;;;;;;IAGIA,4BAAiD,CAAjD,EAAiD,MAAjD,EAAiD,CAAjD;IAC2CA;IAAQA;IACjDA;IAAmCA;IAAOA;IAC1CA;IAAMA;MAAAA;MAAA;MAAA,OAASA,+BAAT;IAAiB,CAAjB;IAAgCA;IAAMA;;;;;;IAG5CA,4BAAK,CAAL,EAAK,MAAL,EAAK,CAAL;IACwCA;IAAKA;IAC3CA;IAAyCA;IAAQA;;;;ACDzD,WAAaC,YAAb;EAAM,MAAOA,YAAP,CAAmB;IACvBC,YACUC,MADV,EAEUC,cAFV,EAEwC;MAD9B;MACA;IACT;;IAEMC,SAAS;MACd,OAAO,KAAKD,cAAL,CAAoBC,SAApB,EAAP;IACD;;IAEMC,MAAM;MACX,KAAKF,cAAL,CAAoBG,MAApB;MACA,KAAKJ,MAAL,CAAYK,QAAZ,CAAqB,CAAC,EAAD,CAArB;IACD;;EAbsB;;;qBAAZP,cAAYD;EAAA;;;UAAZC;IAAYQ;IAAAC;IAAAC;IAAAC;IAAAC;MAAA;QDVzBb,+BAAiB,CAAjB,EAAiB,aAAjB,EAAiB,CAAjB,EAAiB,CAAjB,EAAiB,MAAjB;QAEUA;QAAQA;QACdA;;QAKAA;QAMFA;QACAA;QACEA;QACFA;;;;;;QAdQA;QAAAA,6DAA2B,UAA3B,EAA2Bc,GAA3B;;;;;;ECOV,OAAab,YAAb;AAAA",
       "names": [
         "i0",
         "AppComponent",
         "constructor",
-        "authService",
         "router",
         "sessionService",
         "$isLogged",
@@ -5047,11 +4729,11 @@
       ],
       "sourcesContent": [
         "<div class=\"app\">\n  <mat-toolbar color=\"primary\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\n    <span>Yoga app</span>\n    <div *ngIf=\"$isLogged() | async; else notLogged\">\n      <span routerLink=\"sessions\" class=\"link\">Sessions</span>\n      <span routerLink=\"me\" class=\"link\">Account</span>\n      <span (click)=\"logout()\" class=\"link\">Logout</span>\n    </div>\n    <ng-template #notLogged>\n      <div>\n        <span routerLink=\"login\" class=\"link\">Login</span>\n        <span routerLink=\"register\" class=\"link\">Register</span>\n      </div>\n    </ng-template>\n  </mat-toolbar>\n  <div>\n    <router-outlet></router-outlet>\n  </div>\n</div>\n",
-        "import { Component, OnInit } from '@angular/core';\nimport { Router } from '@angular/router';\nimport { Observable } from 'rxjs';\nimport { AuthService } from './features/auth/services/auth.service';\nimport { SessionInformation } from './interfaces/sessionInformation.interface';\nimport { SessionService } from './services/session.service';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.scss']\n})\nexport class AppComponent {\n  constructor(\n    private authService: AuthService,\n    private router: Router,\n    private sessionService: SessionService) {\n  }\n\n  public $isLogged(): Observable<boolean> {\n    return this.sessionService.$isLogged();\n  }\n\n  public logout(): void {\n    this.sessionService.logOut();\n    this.router.navigate([''])\n  }\n}\n"
+        "import { Component } from '@angular/core';\nimport { Router } from '@angular/router';\nimport { Observable } from 'rxjs';\nimport { SessionService } from './services/session.service';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.scss']\n})\nexport class AppComponent {\n  constructor(\n    private router: Router,\n    private sessionService: SessionService) {\n  }\n\n  public $isLogged(): Observable<boolean> {\n    return this.sessionService.$isLogged();\n  }\n\n  public logout(): void {\n    this.sessionService.logOut();\n    this.router.navigate([''])\n  }\n}\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "a474508d172c7fc7ce979cded61fe58d2072e3ea"
+    "hash": "48c2de00a5a9b4a5ce296cf8656862d7ffa2a98f"
   },
   "/root/code/OC/Testez-une-application-full-stack/front/src/app/interceptors/jwt.interceptor.ts": {
     "path": "/root/code/OC/Testez-une-application-full-stack/front/src/app/interceptors/jwt.interceptor.ts",
@@ -5320,30 +5002,30 @@
       }
     },
     "s": {
-      "0": 89,
-      "1": 75,
-      "2": 238,
-      "3": 163,
-      "4": 238,
-      "5": 89,
-      "6": 75,
-      "7": 89,
-      "8": 89
+      "0": 5,
+      "1": 5,
+      "2": 25,
+      "3": 20,
+      "4": 25,
+      "5": 5,
+      "6": 5,
+      "7": 5,
+      "8": 5
     },
     "f": {
-      "0": 89,
-      "1": 75,
-      "2": 238,
-      "3": 75
+      "0": 5,
+      "1": 5,
+      "2": 25,
+      "3": 5
     },
     "b": {
       "0": [
-        163,
-        75
+        20,
+        5
       ],
       "1": [
-        75,
-        75
+        5,
+        5
       ]
     },
     "inputSourceMap": {
@@ -5543,22 +5225,22 @@
       }
     },
     "s": {
-      "0": 89,
-      "1": 89,
-      "2": 89,
-      "3": 89,
-      "4": 89,
-      "5": 89,
-      "6": 89
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 5
     },
     "f": {
-      "0": 89,
-      "1": 89
+      "0": 5,
+      "1": 5
     },
     "b": {
       "0": [
-        89,
-        89
+        5,
+        5
       ]
     },
     "inputSourceMap": {
@@ -5614,7 +5296,7 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 89
+      "0": 5
     },
     "f": {},
     "b": {},
@@ -5746,9 +5428,9 @@
       }
     },
     "s": {
-      "0": 89,
+      "0": 5,
       "1": 0,
-      "2": 89,
+      "2": 5,
       "3": 0
     },
     "f": {
@@ -5757,7 +5439,7 @@
     "b": {
       "0": [
         0,
-        89
+        5
       ]
     },
     "inputSourceMap": {
@@ -5785,6 +5467,312 @@
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
     "hash": "1635f718a8c6334351901f4fd18b853cde6a2ecb"
+  },
+  "/root/code/OC/Testez-une-application-full-stack/front/src/app/features/auth/services/auth.service.ts": {
+    "path": "/root/code/OC/Testez-une-application-full-stack/front/src/app/features/auth/services/auth.service.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 38
+        },
+        "end": {
+          "line": 30,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 6
+        },
+        "end": {
+          "line": 6,
+          "column": 35
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 6
+        },
+        "end": {
+          "line": 7,
+          "column": 36
+        }
+      },
+      "3": {
+        "start": {
+          "line": 11,
+          "column": 6
+        },
+        "end": {
+          "line": 11,
+          "column": 83
+        }
+      },
+      "4": {
+        "start": {
+          "line": 15,
+          "column": 6
+        },
+        "end": {
+          "line": 15,
+          "column": 77
+        }
+      },
+      "5": {
+        "start": {
+          "line": 20,
+          "column": 2
+        },
+        "end": {
+          "line": 22,
+          "column": 4
+        }
+      },
+      "6": {
+        "start": {
+          "line": 21,
+          "column": 4
+        },
+        "end": {
+          "line": 21,
+          "column": 62
+        }
+      },
+      "7": {
+        "start": {
+          "line": 24,
+          "column": 2
+        },
+        "end": {
+          "line": 28,
+          "column": 5
+        }
+      },
+      "8": {
+        "start": {
+          "line": 29,
+          "column": 2
+        },
+        "end": {
+          "line": 29,
+          "column": 21
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 39
+          },
+          "end": {
+            "line": 3,
+            "column": 40
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 45
+          },
+          "end": {
+            "line": 30,
+            "column": 1
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 4
+          },
+          "end": {
+            "line": 5,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 28
+          },
+          "end": {
+            "line": 8,
+            "column": 5
+          }
+        },
+        "line": 5
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 4
+          },
+          "end": {
+            "line": 10,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 30
+          },
+          "end": {
+            "line": 12,
+            "column": 5
+          }
+        },
+        "line": 10
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 4
+          },
+          "end": {
+            "line": 14,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 24
+          },
+          "end": {
+            "line": 16,
+            "column": 5
+          }
+        },
+        "line": 14
+      },
+      "4": {
+        "name": "AuthService_Factory",
+        "decl": {
+          "start": {
+            "line": 20,
+            "column": 30
+          },
+          "end": {
+            "line": 20,
+            "column": 49
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 53
+          },
+          "end": {
+            "line": 22,
+            "column": 3
+          }
+        },
+        "line": 20
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 16
+          },
+          "end": {
+            "line": 21,
+            "column": 32
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 21,
+              "column": 16
+            },
+            "end": {
+              "line": 21,
+              "column": 17
+            }
+          },
+          {
+            "start": {
+              "line": 21,
+              "column": 21
+            },
+            "end": {
+              "line": 21,
+              "column": 32
+            }
+          }
+        ],
+        "line": 21
+      }
+    },
+    "s": {
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 0,
+      "4": 5,
+      "5": 5,
+      "6": 5,
+      "7": 5,
+      "8": 5
+    },
+    "f": {
+      "0": 5,
+      "1": 5,
+      "2": 0,
+      "3": 5,
+      "4": 5
+    },
+    "b": {
+      "0": [
+        5,
+        5
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "mappings": ";;AAUA,WAAaA,WAAb;EAAM,MAAOA,WAAP,CAAkB;IAItBC,YAAoBC,UAApB,EAA0C;MAAtB;MAFZ,mBAAc,UAAd;IAEuC;;IAExCC,QAAQ,CAACC,eAAD,EAAiC;MAC9C,OAAO,KAAKF,UAAL,CAAgBG,IAAhB,CAA2B,GAAG,KAAKC,WAAW,WAA9C,EAA2DF,eAA3D,CAAP;IACD;;IAEMG,KAAK,CAACC,YAAD,EAA2B;MACrC,OAAO,KAAKN,UAAL,CAAgBG,IAAhB,CAAyC,GAAG,KAAKC,WAAW,QAA5D,EAAsEE,YAAtE,CAAP;IACD;;EAZqB;;;qBAAXR,aAAWS;EAAA;;;WAAXT;IAAWU,SAAXV,WAAW;IAAAW,YAFV;;EAEd,OAAaX,WAAb;AAAA",
+      "names": [
+        "AuthService",
+        "constructor",
+        "httpClient",
+        "register",
+        "registerRequest",
+        "post",
+        "pathService",
+        "login",
+        "loginRequest",
+        "i0",
+        "factory",
+        "providedIn"
+      ],
+      "sourceRoot": "",
+      "sources": [
+        "/root/code/OC/Testez-une-application-full-stack/front/src/app/features/auth/services/auth.service.ts"
+      ],
+      "sourcesContent": [
+        "import { HttpClient } from '@angular/common/http';\nimport { Injectable } from '@angular/core';\nimport { Observable } from 'rxjs';\nimport { LoginRequest } from '../interfaces/loginRequest.interface';\nimport { RegisterRequest } from '../interfaces/registerRequest.interface';\nimport { SessionInformation } from 'src/app/interfaces/sessionInformation.interface';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class AuthService {\n\n  private pathService = 'api/auth';\n\n  constructor(private httpClient: HttpClient) { }\n\n  public register(registerRequest: RegisterRequest): Observable<void> {\n    return this.httpClient.post<void>(`${this.pathService}/register`, registerRequest);\n  }\n\n  public login(loginRequest: LoginRequest): Observable<SessionInformation> {\n    return this.httpClient.post<SessionInformation>(`${this.pathService}/login`, loginRequest);\n  }\n}\n"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "fb3bc3ae8352878bdcf0eb91ff5f3b1403157a76"
   },
   "/root/code/OC/Testez-une-application-full-stack/front/src/app/features/auth/components/login/login.component.ts": {
     "path": "/root/code/OC/Testez-une-application-full-stack/front/src/app/features/auth/components/login/login.component.ts",
@@ -6821,100 +6809,100 @@
       }
     },
     "s": {
-      "0": 6,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 89,
-      "5": 81,
-      "6": 81,
-      "7": 81,
-      "8": 81,
-      "9": 81,
-      "10": 81,
-      "11": 81,
-      "12": 69,
-      "13": 69,
-      "14": 67,
-      "15": 67,
-      "16": 2,
-      "17": 89,
-      "18": 81,
-      "19": 89,
-      "20": 3005,
-      "21": 81,
-      "22": 81,
-      "23": 81,
-      "24": 81,
-      "25": 81,
-      "26": 69,
-      "27": 81,
-      "28": 81,
-      "29": 81,
-      "30": 81,
-      "31": 81,
-      "32": 81,
-      "33": 81,
-      "34": 138,
-      "35": 81,
-      "36": 81,
-      "37": 81,
-      "38": 81,
-      "39": 81,
-      "40": 81,
-      "41": 81,
-      "42": 81,
-      "43": 3005,
-      "44": 2924,
-      "45": 2924,
-      "46": 2924,
-      "47": 2924,
-      "48": 2924,
-      "49": 2924,
-      "50": 2924,
-      "51": 2924,
-      "52": 2924,
-      "53": 2924,
-      "54": 2924,
-      "55": 2924,
-      "56": 89
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 5,
+      "5": 5,
+      "6": 5,
+      "7": 5,
+      "8": 5,
+      "9": 5,
+      "10": 5,
+      "11": 5,
+      "12": 5,
+      "13": 5,
+      "14": 5,
+      "15": 5,
+      "16": 0,
+      "17": 5,
+      "18": 5,
+      "19": 5,
+      "20": 215,
+      "21": 5,
+      "22": 5,
+      "23": 5,
+      "24": 5,
+      "25": 5,
+      "26": 5,
+      "27": 5,
+      "28": 5,
+      "29": 5,
+      "30": 5,
+      "31": 5,
+      "32": 5,
+      "33": 5,
+      "34": 10,
+      "35": 5,
+      "36": 5,
+      "37": 5,
+      "38": 5,
+      "39": 5,
+      "40": 5,
+      "41": 5,
+      "42": 5,
+      "43": 215,
+      "44": 210,
+      "45": 210,
+      "46": 210,
+      "47": 210,
+      "48": 210,
+      "49": 210,
+      "50": 210,
+      "51": 210,
+      "52": 210,
+      "53": 210,
+      "54": 210,
+      "55": 210,
+      "56": 5
     },
     "f": {
-      "0": 6,
-      "1": 89,
-      "2": 81,
-      "3": 69,
-      "4": 67,
-      "5": 2,
-      "6": 81,
-      "7": 3005,
-      "8": 69,
-      "9": 138
+      "0": 0,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 0,
+      "6": 5,
+      "7": 215,
+      "8": 5,
+      "9": 10
     },
     "b": {
       "0": [
-        2,
-        4
+        0,
+        0
       ],
       "1": [
-        81,
-        81
+        5,
+        5
       ],
       "2": [
-        81,
-        2924
+        5,
+        210
       ],
       "3": [
-        2924,
-        81
+        210,
+        5
       ],
       "4": [
-        2786,
-        138
+        200,
+        10
       ],
       "5": [
-        2786,
-        138
+        200,
+        10
       ]
     },
     "inputSourceMap": {
@@ -7825,83 +7813,83 @@
       }
     },
     "s": {
-      "0": 6,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 89,
-      "5": 16,
-      "6": 16,
-      "7": 16,
-      "8": 16,
-      "9": 16,
-      "10": 6,
-      "11": 6,
-      "12": 4,
-      "13": 2,
-      "14": 89,
-      "15": 16,
-      "16": 89,
-      "17": 482,
-      "18": 16,
-      "19": 16,
-      "20": 16,
-      "21": 16,
-      "22": 16,
-      "23": 6,
-      "24": 16,
-      "25": 16,
-      "26": 16,
-      "27": 16,
-      "28": 16,
-      "29": 16,
-      "30": 16,
-      "31": 16,
-      "32": 16,
-      "33": 16,
-      "34": 16,
-      "35": 16,
-      "36": 16,
-      "37": 16,
-      "38": 16,
-      "39": 16,
-      "40": 16,
-      "41": 482,
-      "42": 466,
-      "43": 466,
-      "44": 466,
-      "45": 466,
-      "46": 466,
-      "47": 466,
-      "48": 89
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 5,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 5,
+      "15": 0,
+      "16": 5,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "31": 0,
+      "32": 0,
+      "33": 0,
+      "34": 0,
+      "35": 0,
+      "36": 0,
+      "37": 0,
+      "38": 0,
+      "39": 0,
+      "40": 0,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "47": 0,
+      "48": 5
     },
     "f": {
-      "0": 6,
-      "1": 89,
-      "2": 16,
-      "3": 6,
-      "4": 4,
-      "5": 2,
-      "6": 16,
-      "7": 482,
-      "8": 6
+      "0": 0,
+      "1": 5,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
     },
     "b": {
       "0": [
-        2,
-        4
+        0,
+        0
       ],
       "1": [
-        16,
-        16
+        0,
+        0
       ],
       "2": [
-        16,
-        466
+        0,
+        0
       ],
       "3": [
-        466,
-        16
+        0,
+        0
       ]
     },
     "inputSourceMap": {
@@ -8117,22 +8105,22 @@
       }
     },
     "s": {
-      "0": 89,
-      "1": 89,
-      "2": 89,
-      "3": 89,
-      "4": 89,
-      "5": 89,
-      "6": 89
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 5
     },
     "f": {
-      "0": 89,
-      "1": 89
+      "0": 5,
+      "1": 5
     },
     "b": {
       "0": [
-        89,
-        89
+        5,
+        5
       ]
     },
     "inputSourceMap": {
@@ -8323,22 +8311,22 @@
       }
     },
     "s": {
-      "0": 89,
-      "1": 89,
-      "2": 89,
-      "3": 89,
-      "4": 89,
-      "5": 89,
-      "6": 89
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 5
     },
     "f": {
-      "0": 89,
-      "1": 89
+      "0": 5,
+      "1": 5
     },
     "b": {
       "0": [
-        89,
-        89
+        5,
+        5
       ]
     },
     "inputSourceMap": {
@@ -8794,37 +8782,37 @@
       }
     },
     "s": {
-      "0": 67,
-      "1": 67,
-      "2": 67,
-      "3": 79,
-      "4": 34,
-      "5": 2,
-      "6": 4,
-      "7": 4,
-      "8": 4,
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 9,
+      "4": 2,
+      "5": 0,
+      "6": 2,
+      "7": 2,
+      "8": 0,
       "9": 0,
-      "10": 67,
-      "11": 67,
-      "12": 67,
-      "13": 67
+      "10": 5,
+      "11": 5,
+      "12": 5,
+      "13": 5
     },
     "f": {
-      "0": 67,
-      "1": 67,
-      "2": 79,
-      "3": 34,
-      "4": 2,
-      "5": 4,
-      "6": 4,
-      "7": 4,
+      "0": 5,
+      "1": 5,
+      "2": 9,
+      "3": 2,
+      "4": 0,
+      "5": 2,
+      "6": 2,
+      "7": 0,
       "8": 0,
-      "9": 67
+      "9": 5
     },
     "b": {
       "0": [
-        67,
-        67
+        5,
+        5
       ]
     },
     "inputSourceMap": {
@@ -9118,27 +9106,27 @@
       }
     },
     "s": {
-      "0": 67,
-      "1": 36,
-      "2": 36,
-      "3": 16,
-      "4": 16,
-      "5": 67,
-      "6": 36,
-      "7": 67,
-      "8": 67
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 0,
+      "5": 5,
+      "6": 5,
+      "7": 5,
+      "8": 5
     },
     "f": {
-      "0": 67,
-      "1": 36,
-      "2": 16,
-      "3": 16,
-      "4": 36
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 0,
+      "4": 5
     },
     "b": {
       "0": [
-        36,
-        36
+        5,
+        5
       ]
     },
     "inputSourceMap": {
@@ -11973,32 +11961,32 @@
       }
     },
     "s": {
-      "0": 94,
-      "1": 10,
-      "2": 10,
-      "3": 10,
-      "4": 2,
-      "5": 2,
-      "6": 2,
-      "7": 10,
-      "8": 10,
-      "9": 10,
-      "10": 10,
-      "11": 10,
-      "12": 10,
-      "13": 88,
-      "14": 4,
-      "15": 4,
-      "16": 4,
-      "17": 4,
-      "18": 4,
-      "19": 4,
-      "20": 4,
-      "21": 4,
-      "22": 4,
-      "23": 4,
-      "24": 4,
-      "25": 4,
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0,
       "26": 0,
       "27": 0,
       "28": 0,
@@ -12012,223 +12000,223 @@
       "36": 0,
       "37": 0,
       "38": 0,
-      "39": 88,
-      "40": 4,
-      "41": 4,
-      "42": 4,
-      "43": 4,
-      "44": 88,
-      "45": 84,
-      "46": 84,
-      "47": 84,
-      "48": 84,
-      "49": 84,
-      "50": 85,
-      "51": 13,
-      "52": 13,
-      "53": 13,
-      "54": 13,
-      "55": 13,
-      "56": 13,
-      "57": 13,
-      "58": 85,
-      "59": 72,
-      "60": 72,
-      "61": 72,
-      "62": 182,
-      "63": 14,
-      "64": 14,
-      "65": 14,
+      "39": 0,
+      "40": 0,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "47": 0,
+      "48": 0,
+      "49": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 0,
+      "57": 0,
+      "58": 0,
+      "59": 0,
+      "60": 0,
+      "61": 0,
+      "62": 0,
+      "63": 0,
+      "64": 0,
+      "65": 0,
       "66": 0,
       "67": 0,
       "68": 0,
-      "69": 14,
-      "70": 14,
-      "71": 14,
-      "72": 14,
-      "73": 14,
-      "74": 14,
-      "75": 14,
-      "76": 14,
-      "77": 14,
-      "78": 14,
-      "79": 14,
-      "80": 14,
-      "81": 14,
-      "82": 14,
-      "83": 14,
-      "84": 14,
-      "85": 14,
-      "86": 14,
-      "87": 14,
-      "88": 14,
-      "89": 14,
-      "90": 14,
-      "91": 14,
-      "92": 14,
-      "93": 14,
-      "94": 14,
-      "95": 14,
-      "96": 14,
-      "97": 14,
-      "98": 14,
-      "99": 14,
-      "100": 14,
-      "101": 14,
-      "102": 14,
-      "103": 14,
-      "104": 14,
-      "105": 14,
-      "106": 14,
-      "107": 14,
-      "108": 14,
-      "109": 14,
-      "110": 14,
-      "111": 14,
-      "112": 14,
-      "113": 14,
-      "114": 14,
-      "115": 182,
-      "116": 168,
-      "117": 168,
-      "118": 168,
-      "119": 168,
-      "120": 168,
-      "121": 168,
-      "122": 168,
-      "123": 168,
-      "124": 168,
-      "125": 168,
-      "126": 168,
-      "127": 168,
-      "128": 168,
-      "129": 168,
-      "130": 168,
-      "131": 168,
-      "132": 168,
-      "133": 168,
-      "134": 168,
-      "135": 67,
-      "136": 20,
-      "137": 20,
-      "138": 20,
-      "139": 20,
-      "140": 20,
-      "141": 20,
-      "142": 20,
-      "143": 20,
-      "144": 20,
-      "145": 20,
-      "146": 20,
-      "147": 20,
-      "148": 20,
+      "69": 0,
+      "70": 0,
+      "71": 0,
+      "72": 0,
+      "73": 0,
+      "74": 0,
+      "75": 0,
+      "76": 0,
+      "77": 0,
+      "78": 0,
+      "79": 0,
+      "80": 0,
+      "81": 0,
+      "82": 0,
+      "83": 0,
+      "84": 0,
+      "85": 0,
+      "86": 0,
+      "87": 0,
+      "88": 0,
+      "89": 0,
+      "90": 0,
+      "91": 0,
+      "92": 0,
+      "93": 0,
+      "94": 0,
+      "95": 0,
+      "96": 0,
+      "97": 0,
+      "98": 0,
+      "99": 0,
+      "100": 0,
+      "101": 0,
+      "102": 0,
+      "103": 0,
+      "104": 0,
+      "105": 0,
+      "106": 0,
+      "107": 0,
+      "108": 0,
+      "109": 0,
+      "110": 0,
+      "111": 0,
+      "112": 0,
+      "113": 0,
+      "114": 0,
+      "115": 0,
+      "116": 0,
+      "117": 0,
+      "118": 0,
+      "119": 0,
+      "120": 0,
+      "121": 0,
+      "122": 0,
+      "123": 0,
+      "124": 0,
+      "125": 0,
+      "126": 0,
+      "127": 0,
+      "128": 0,
+      "129": 0,
+      "130": 0,
+      "131": 0,
+      "132": 0,
+      "133": 0,
+      "134": 0,
+      "135": 5,
+      "136": 0,
+      "137": 0,
+      "138": 0,
+      "139": 0,
+      "140": 0,
+      "141": 0,
+      "142": 0,
+      "143": 0,
+      "144": 0,
+      "145": 0,
+      "146": 0,
+      "147": 0,
+      "148": 0,
       "149": 0,
-      "150": 2,
-      "151": 2,
-      "152": 2,
-      "153": 4,
-      "154": 4,
+      "150": 0,
+      "151": 0,
+      "152": 0,
+      "153": 0,
+      "154": 0,
       "155": 0,
       "156": 0,
-      "157": 24,
-      "158": 16,
-      "159": 16,
-      "160": 28,
-      "161": 16,
-      "162": 15,
-      "163": 67,
-      "164": 20,
-      "165": 67,
-      "166": 306,
-      "167": 20,
-      "168": 20,
-      "169": 20,
-      "170": 306,
-      "171": 286,
-      "172": 286,
-      "173": 67
+      "157": 0,
+      "158": 0,
+      "159": 0,
+      "160": 0,
+      "161": 0,
+      "162": 0,
+      "163": 5,
+      "164": 0,
+      "165": 5,
+      "166": 0,
+      "167": 0,
+      "168": 0,
+      "169": 0,
+      "170": 0,
+      "171": 0,
+      "172": 0,
+      "173": 5
     },
     "f": {
-      "0": 94,
-      "1": 2,
-      "2": 88,
-      "3": 4,
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
       "4": 0,
       "5": 0,
-      "6": 88,
-      "7": 85,
-      "8": 182,
+      "6": 0,
+      "7": 0,
+      "8": 0,
       "9": 0,
-      "10": 67,
-      "11": 20,
-      "12": 20,
+      "10": 5,
+      "11": 0,
+      "12": 0,
       "13": 0,
-      "14": 2,
-      "15": 2,
-      "16": 4,
-      "17": 4,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
       "18": 0,
       "19": 0,
-      "20": 24,
-      "21": 16,
-      "22": 28,
-      "23": 15,
-      "24": 20,
-      "25": 306
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0
     },
     "b": {
       "0": [
-        10,
-        84
+        0,
+        0
       ],
       "1": [
-        4,
-        84
+        0,
+        0
       ],
       "2": [
         0,
         0
       ],
       "3": [
-        4,
-        84
+        0,
+        0
       ],
       "4": [
-        84,
-        4
+        0,
+        0
       ],
       "5": [
-        13,
-        72
+        0,
+        0
       ],
       "6": [
-        72,
-        13
+        0,
+        0
       ],
       "7": [
-        14,
-        168
+        0,
+        0
       ],
       "8": [
-        168,
-        14
+        0,
+        0
       ],
       "9": [
-        20,
-        20
+        0,
+        0
       ],
       "10": [
-        20,
-        286
+        0,
+        0
       ],
       "11": [
-        286,
-        20
+        0,
+        0
       ]
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "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",
+      "mappings": "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",
       "names": [
         "i0",
         "DetailComponent",
@@ -12284,11 +12272,11 @@
       ],
       "sourcesContent": [
         "<div class=\"m3\">\n  <mat-card *ngIf=\"session\">\n    <mat-card-title>\n      <div fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\n        <div fxLayout=\"row\" fxLayoutAlign=\"start center\">\n          <button mat-icon-button (click)=\"back()\">\n            <mat-icon>arrow_back</mat-icon>\n          </button>\n          <h1>{{session.name | titlecase}}</h1>\n        </div>\n        <div>\n          <button *ngIf=\"isAdmin\" mat-raised-button color=\"warn\" (click)=\"delete()\">\n            <mat-icon>delete</mat-icon>\n            <span class=\"ml1\">Delete</span>\n          </button>\n          <div *ngIf=\"!isAdmin\">\n            <button *ngIf=\"!isParticipate\" mat-raised-button color=\"primary\" (click)=\"participate()\">\n              <mat-icon>person_add</mat-icon>\n              <span class=\"ml1\">Participate</span>\n            </button>\n            <button *ngIf=\"isParticipate\" mat-raised-button color=\"warn\" (click)=\"unParticipate()\">\n              <mat-icon>person_remove</mat-icon>\n              <span class=\"ml1\">Do not participate</span>\n            </button>\n\n          </div>\n\n\n        </div>\n      </div>\n    </mat-card-title>\n    <mat-card-subtitle *ngIf=\"teacher\">\n      <div fxLayoutAlign=\"start center\" class=\"ml3\">\n        <mat-icon>\n          people\n        </mat-icon>\n        <span class=\"ml1\">{{ teacher.firstName }} {{ teacher.lastName | uppercase }}</span>\n      </div>\n    </mat-card-subtitle>\n    <div mat-card-image fxLayoutAlign=\"center center\">\n      <img class=\"picture\" src=\"assets/sessions.png\" alt=\"Yoga session\">\n    </div>\n    <mat-card-content>\n      <div class=\"my2\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\n        <div fxLayoutAlign=\"start center\">\n          <mat-icon>\n            group\n          </mat-icon>\n          <span class=\"ml1\">{{ session.users.length }} attendees</span>\n        </div>\n        <div fxLayoutAlign=\"start center\">\n          <mat-icon>\n            calendar_month\n          </mat-icon>\n          <span class=\"ml1\">{{ session.date | date: 'longDate'}}</span>\n        </div>\n      </div>\n      <div class=\"description\">\n        <p>Description:</p>\n        {{ session.description }}\n        <br>\n      </div>\n      <div class=\"date\" class=\"my2\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\n        <div class=\"created\"><i>Create at: </i> {{ session.createdAt| date: 'longDate'}}</div>\n        <div class=\"updated\"><i>Last update: </i> {{ session.updatedAt| date: 'longDate'}}</div>\n      </div>\n    </mat-card-content>\n  </mat-card>\n</div>\n",
-        "import { Component, OnInit } from '@angular/core';\nimport { FormBuilder } from '@angular/forms';\nimport { MatSnackBar } from '@angular/material/snack-bar';\nimport { ActivatedRoute, Router } from '@angular/router';\nimport { Teacher } from '../../../../interfaces/teacher.interface';\nimport { SessionService } from '../../../../services/session.service';\nimport { TeacherService } from '../../../../services/teacher.service';\nimport { Session } from '../../interfaces/session.interface';\nimport { SessionApiService } from '../../services/session-api.service';\n\n@Component({\n  selector: 'app-detail',\n  templateUrl: './detail.component.html',\n  styleUrls: ['./detail.component.scss']\n})\nexport class DetailComponent implements OnInit {\n  public session: Session | undefined;\n  public teacher: Teacher | undefined;\n\n  public isParticipate = false;\n  public isAdmin = false;\n\n  public sessionId: string;\n  public userId: string;\n\n  constructor(\n    private route: ActivatedRoute,\n    private fb: FormBuilder,\n    private sessionService: SessionService,\n    private sessionApiService: SessionApiService,\n    private teacherService: TeacherService,\n    private matSnackBar: MatSnackBar,\n    private router: Router) {\n    this.sessionId = this.route.snapshot.paramMap.get('id')!;\n    this.isAdmin = this.sessionService.sessionInformation!.admin;\n    this.userId = this.sessionService.sessionInformation!.id.toString();\n  }\n\n  public ngOnInit(): void {\n    this.fetchSession();\n  }\n\n  public back() {\n    window.history.back();\n  }\n\n  public delete(): void {\n    this.sessionApiService\n      .delete(this.sessionId)\n      .subscribe((_: any) => {\n          this.matSnackBar.open('Session deleted !', 'Close', { duration: 3000 });\n          this.router.navigate(['sessions']);\n        }\n      );\n  }\n\n  public participate(): void {\n    this.sessionApiService.participate(this.sessionId, this.userId).subscribe(_ => this.fetchSession());\n  }\n\n  public unParticipate(): void {\n    this.sessionApiService.unParticipate(this.sessionId, this.userId).subscribe(_ => this.fetchSession());\n  }\n\n  private fetchSession(): void {\n    this.sessionApiService\n      .detail(this.sessionId)\n      .subscribe((session: Session) => {\n        this.session = session;\n        this.isParticipate = session.users.some(u => u === this.sessionService.sessionInformation!.id);\n        this.teacherService\n          .detail(session.teacher_id.toString())\n          .subscribe((teacher: Teacher) => this.teacher = teacher);\n      });\n  }\n\n}\n"
+        "import { Component, OnInit } from '@angular/core';\nimport { FormBuilder } from '@angular/forms';\nimport { MatSnackBar } from '@angular/material/snack-bar';\nimport { ActivatedRoute, Router } from '@angular/router';\nimport { Teacher } from '../../../../interfaces/teacher.interface';\nimport { SessionService } from '../../../../services/session.service';\nimport { TeacherService } from '../../../../services/teacher.service';\nimport { Session } from '../../interfaces/session.interface';\nimport { SessionApiService } from '../../services/session-api.service';\n\n@Component({\n  selector: 'app-detail',\n  templateUrl: './detail.component.html',\n  styleUrls: ['./detail.component.scss']\n})\nexport class DetailComponent implements OnInit {\n  public session: Session | undefined;\n  public teacher: Teacher | undefined;\n\n  public isParticipate = false;\n  public isAdmin = false;\n\n  public sessionId: string;\n  public userId: string;\n\n  constructor(\n    private route: ActivatedRoute,\n    private fb: FormBuilder,\n    private sessionService: SessionService,\n    private sessionApiService: SessionApiService,\n    private teacherService: TeacherService,\n    private matSnackBar: MatSnackBar,\n    private router: Router) {\n    this.sessionId = this.route.snapshot.paramMap.get('id')!;\n    this.isAdmin = this.sessionService.sessionInformation!.admin;\n    this.userId = this.sessionService.sessionInformation!.id.toString();\n  }\n\n  public ngOnInit(): void {\n    this.fetchSession();\n  }\n\n  public back() {\n    window.history.back();\n  }\n\n  public delete(): void {\n    this.sessionApiService\n      .delete(this.sessionId)\n      .subscribe((_: any) => {\n        this.matSnackBar.open('Session deleted !', 'Close', { duration: 3000 });\n        this.router.navigate(['sessions']);\n      }\n      );\n  }\n\n  public participate(): void {\n    this.sessionApiService.participate(this.sessionId, this.userId).subscribe(_ => this.fetchSession());\n  }\n\n  public unParticipate(): void {\n    this.sessionApiService.unParticipate(this.sessionId, this.userId).subscribe(_ => this.fetchSession());\n  }\n\n  private fetchSession(): void {\n    this.sessionApiService\n      .detail(this.sessionId)\n      .subscribe((session: Session) => {\n        this.session = session;\n        this.isParticipate = session.users.some(u => u === this.sessionService.sessionInformation!.id);\n        this.teacherService\n          .detail(session.teacher_id.toString())\n          .subscribe((teacher: Teacher) => this.teacher = teacher);\n      });\n  }\n\n}\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "874e00581a47ca40723c0356cf44f2b833949624"
+    "hash": "a13bedea5f86b0858045a2c1d60e63701e41043a"
   },
   "/root/code/OC/Testez-une-application-full-stack/front/src/app/features/sessions/components/form/form.component.ts": {
     "path": "/root/code/OC/Testez-une-application-full-stack/front/src/app/features/sessions/components/form/form.component.ts",
@@ -14309,194 +14297,194 @@
       }
     },
     "s": {
-      "0": 356,
-      "1": 6,
-      "2": 6,
-      "3": 6,
-      "4": 382,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 1200,
-      "9": 20,
-      "10": 20,
-      "11": 20,
-      "12": 1200,
-      "13": 1180,
-      "14": 1180,
-      "15": 1180,
-      "16": 1180,
-      "17": 664,
-      "18": 10,
-      "19": 10,
-      "20": 10,
-      "21": 8,
-      "22": 8,
-      "23": 8,
-      "24": 10,
-      "25": 10,
-      "26": 10,
-      "27": 10,
-      "28": 10,
-      "29": 10,
-      "30": 10,
-      "31": 10,
-      "32": 10,
-      "33": 10,
-      "34": 10,
-      "35": 10,
-      "36": 10,
-      "37": 10,
-      "38": 10,
-      "39": 10,
-      "40": 10,
-      "41": 10,
-      "42": 10,
-      "43": 10,
-      "44": 10,
-      "45": 10,
-      "46": 10,
-      "47": 10,
-      "48": 10,
-      "49": 664,
-      "50": 654,
-      "51": 654,
-      "52": 654,
-      "53": 654,
-      "54": 654,
-      "55": 654,
-      "56": 654,
-      "57": 67,
-      "58": 16,
-      "59": 16,
-      "60": 16,
-      "61": 16,
-      "62": 16,
-      "63": 16,
-      "64": 16,
-      "65": 16,
-      "66": 16,
-      "67": 16,
+      "0": 178,
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 164,
+      "5": 2,
+      "6": 2,
+      "7": 2,
+      "8": 600,
+      "9": 10,
+      "10": 10,
+      "11": 10,
+      "12": 600,
+      "13": 590,
+      "14": 590,
+      "15": 590,
+      "16": 590,
+      "17": 332,
+      "18": 5,
+      "19": 5,
+      "20": 5,
+      "21": 4,
+      "22": 4,
+      "23": 4,
+      "24": 5,
+      "25": 5,
+      "26": 5,
+      "27": 5,
+      "28": 5,
+      "29": 5,
+      "30": 5,
+      "31": 5,
+      "32": 5,
+      "33": 5,
+      "34": 5,
+      "35": 5,
+      "36": 5,
+      "37": 5,
+      "38": 5,
+      "39": 5,
+      "40": 5,
+      "41": 5,
+      "42": 5,
+      "43": 5,
+      "44": 5,
+      "45": 5,
+      "46": 5,
+      "47": 5,
+      "48": 5,
+      "49": 332,
+      "50": 327,
+      "51": 327,
+      "52": 327,
+      "53": 327,
+      "54": 327,
+      "55": 327,
+      "56": 327,
+      "57": 5,
+      "58": 5,
+      "59": 5,
+      "60": 5,
+      "61": 5,
+      "62": 5,
+      "63": 5,
+      "64": 5,
+      "65": 5,
+      "66": 5,
+      "67": 5,
       "68": 0,
-      "69": 16,
-      "70": 16,
-      "71": 10,
-      "72": 10,
-      "73": 10,
-      "74": 4,
-      "75": 6,
-      "76": 8,
-      "77": 8,
-      "78": 4,
-      "79": 4,
-      "80": 4,
-      "81": 4,
-      "82": 10,
-      "83": 8,
-      "84": 8,
-      "85": 67,
-      "86": 16,
-      "87": 67,
-      "88": 738,
-      "89": 16,
-      "90": 16,
-      "91": 16,
-      "92": 16,
-      "93": 16,
-      "94": 16,
-      "95": 16,
-      "96": 16,
-      "97": 738,
-      "98": 722,
-      "99": 722,
-      "100": 722,
-      "101": 722,
-      "102": 722,
-      "103": 722,
-      "104": 67
+      "69": 5,
+      "70": 5,
+      "71": 2,
+      "72": 2,
+      "73": 2,
+      "74": 2,
+      "75": 3,
+      "76": 4,
+      "77": 4,
+      "78": 2,
+      "79": 2,
+      "80": 2,
+      "81": 2,
+      "82": 5,
+      "83": 4,
+      "84": 4,
+      "85": 5,
+      "86": 5,
+      "87": 5,
+      "88": 342,
+      "89": 5,
+      "90": 5,
+      "91": 5,
+      "92": 5,
+      "93": 5,
+      "94": 5,
+      "95": 5,
+      "96": 5,
+      "97": 342,
+      "98": 337,
+      "99": 337,
+      "100": 337,
+      "101": 337,
+      "102": 337,
+      "103": 337,
+      "104": 5
     },
     "f": {
-      "0": 356,
-      "1": 382,
-      "2": 1200,
-      "3": 664,
-      "4": 8,
-      "5": 67,
-      "6": 16,
-      "7": 16,
-      "8": 4,
-      "9": 8,
-      "10": 4,
-      "11": 4,
-      "12": 10,
-      "13": 8,
-      "14": 16,
-      "15": 738
+      "0": 178,
+      "1": 164,
+      "2": 600,
+      "3": 332,
+      "4": 4,
+      "5": 5,
+      "6": 5,
+      "7": 5,
+      "8": 2,
+      "9": 4,
+      "10": 2,
+      "11": 2,
+      "12": 5,
+      "13": 4,
+      "14": 5,
+      "15": 342
     },
     "b": {
       "0": [
-        6,
-        350
+        3,
+        175
       ],
       "1": [
-        10,
-        372
+        2,
+        162
       ],
       "2": [
-        20,
-        1180
+        10,
+        590
       ],
       "3": [
-        1180,
-        20
+        590,
+        10
       ],
       "4": [
-        10,
-        654
+        5,
+        327
       ],
       "5": [
-        654,
-        10
+        327,
+        5
       ],
       "6": [
         0,
-        16
+        5
       ],
       "7": [
-        10,
-        6
+        2,
+        3
       ],
       "8": [
-        4,
-        4
+        2,
+        2
       ],
       "9": [
-        4,
-        6
+        2,
+        3
       ],
       "10": [
-        4,
-        6
+        2,
+        3
       ],
       "11": [
-        4,
-        6
+        2,
+        3
       ],
       "12": [
-        4,
-        6
+        2,
+        3
       ],
       "13": [
-        16,
-        16
+        5,
+        5
       ],
       "14": [
-        16,
-        722
+        5,
+        337
       ],
       "15": [
-        722,
-        16
+        337,
+        5
       ]
     },
     "inputSourceMap": {
@@ -15906,131 +15894,131 @@
       }
     },
     "s": {
-      "0": 476,
-      "1": 60,
-      "2": 60,
-      "3": 60,
-      "4": 60,
-      "5": 60,
-      "6": 60,
-      "7": 67,
-      "8": 49,
-      "9": 151,
-      "10": 49,
-      "11": 49,
-      "12": 49,
-      "13": 49,
-      "14": 49,
-      "15": 49,
-      "16": 151,
-      "17": 102,
-      "18": 102,
-      "19": 67,
-      "20": 65,
-      "21": 199,
-      "22": 65,
-      "23": 65,
-      "24": 65,
-      "25": 65,
-      "26": 65,
-      "27": 65,
-      "28": 65,
-      "29": 65,
-      "30": 65,
-      "31": 65,
-      "32": 65,
-      "33": 65,
-      "34": 65,
-      "35": 65,
-      "36": 65,
-      "37": 65,
-      "38": 65,
-      "39": 65,
-      "40": 65,
-      "41": 65,
-      "42": 65,
-      "43": 199,
-      "44": 134,
-      "45": 134,
-      "46": 134,
-      "47": 134,
-      "48": 134,
-      "49": 134,
-      "50": 134,
-      "51": 134,
-      "52": 134,
-      "53": 134,
-      "54": 134,
-      "55": 134,
-      "56": 67,
-      "57": 79,
-      "58": 79,
-      "59": 79,
-      "60": 684,
-      "61": 67,
-      "62": 79,
-      "63": 67,
-      "64": 629,
-      "65": 79,
-      "66": 79,
-      "67": 79,
-      "68": 79,
-      "69": 79,
-      "70": 79,
-      "71": 79,
-      "72": 79,
-      "73": 79,
-      "74": 629,
-      "75": 550,
-      "76": 550,
-      "77": 550,
-      "78": 550,
-      "79": 67
+      "0": 71,
+      "1": 9,
+      "2": 9,
+      "3": 9,
+      "4": 9,
+      "5": 9,
+      "6": 9,
+      "7": 5,
+      "8": 7,
+      "9": 23,
+      "10": 7,
+      "11": 7,
+      "12": 7,
+      "13": 7,
+      "14": 7,
+      "15": 7,
+      "16": 23,
+      "17": 16,
+      "18": 16,
+      "19": 5,
+      "20": 7,
+      "21": 23,
+      "22": 7,
+      "23": 7,
+      "24": 7,
+      "25": 7,
+      "26": 7,
+      "27": 7,
+      "28": 7,
+      "29": 7,
+      "30": 7,
+      "31": 7,
+      "32": 7,
+      "33": 7,
+      "34": 7,
+      "35": 7,
+      "36": 7,
+      "37": 7,
+      "38": 7,
+      "39": 7,
+      "40": 7,
+      "41": 7,
+      "42": 7,
+      "43": 23,
+      "44": 16,
+      "45": 16,
+      "46": 16,
+      "47": 16,
+      "48": 16,
+      "49": 16,
+      "50": 16,
+      "51": 16,
+      "52": 16,
+      "53": 16,
+      "54": 16,
+      "55": 16,
+      "56": 5,
+      "57": 9,
+      "58": 9,
+      "59": 9,
+      "60": 78,
+      "61": 5,
+      "62": 9,
+      "63": 5,
+      "64": 71,
+      "65": 9,
+      "66": 9,
+      "67": 9,
+      "68": 9,
+      "69": 9,
+      "70": 9,
+      "71": 9,
+      "72": 9,
+      "73": 9,
+      "74": 71,
+      "75": 62,
+      "76": 62,
+      "77": 62,
+      "78": 62,
+      "79": 5
     },
     "f": {
-      "0": 476,
-      "1": 49,
-      "2": 151,
-      "3": 65,
-      "4": 199,
-      "5": 67,
-      "6": 79,
-      "7": 684,
-      "8": 79,
-      "9": 629
+      "0": 71,
+      "1": 7,
+      "2": 23,
+      "3": 7,
+      "4": 23,
+      "5": 5,
+      "6": 9,
+      "7": 78,
+      "8": 9,
+      "9": 71
     },
     "b": {
       "0": [
-        60,
-        416
+        9,
+        62
       ],
       "1": [
-        49,
-        102
+        7,
+        16
       ],
       "2": [
-        102,
-        49
+        16,
+        7
       ],
       "3": [
-        65,
-        134
+        7,
+        16
       ],
       "4": [
-        134,
-        65
+        16,
+        7
       ],
       "5": [
-        79,
-        79
+        9,
+        9
       ],
       "6": [
-        79,
-        550
+        9,
+        62
       ],
       "7": [
-        550,
-        79
+        62,
+        9
       ]
     },
     "inputSourceMap": {
@@ -16227,22 +16215,22 @@
       }
     },
     "s": {
-      "0": 67,
-      "1": 67,
-      "2": 67,
-      "3": 67,
-      "4": 67,
-      "5": 67,
-      "6": 67
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 5
     },
     "f": {
-      "0": 67,
-      "1": 67
+      "0": 5,
+      "1": 5
     },
     "b": {
       "0": [
-        67,
-        67
+        5,
+        5
       ]
     },
     "inputSourceMap": {
@@ -16444,23 +16432,23 @@
       }
     },
     "s": {
-      "0": 67,
-      "1": 67,
-      "2": 67,
-      "3": 67,
-      "4": 67,
-      "5": 67,
-      "6": 67,
-      "7": 67
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 5,
+      "7": 5
     },
     "f": {
-      "0": 67,
-      "1": 67
+      "0": 5,
+      "1": 5
     },
     "b": {
       "0": [
-        67,
-        67
+        5,
+        5
       ]
     },
     "inputSourceMap": {
