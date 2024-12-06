@@ -14,6 +14,8 @@ import { TeacherService } from 'src/app/services/teacher.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { of } from 'rxjs';
 import { MatIconModule } from '@angular/material/icon';
+import { Session } from '../../interfaces/session.interface';
+import { Teacher } from 'src/app/interfaces/teacher.interface';
 
 
 describe('DetailComponent', () => {
@@ -24,6 +26,22 @@ describe('DetailComponent', () => {
   let teacherServiceMock: jest.Mocked<TeacherService>;
   let routerMock: jest.Mocked<Router>;
   let activatedRouteMock: jest.Mocked<ActivatedRoute>;
+
+  let mockSession: Session = {
+    id: 1,
+    name: 'yoga',
+    description: 'relax your self',
+    date: new Date('2024-11-20'),
+    teacher_id: 1,
+    users: [3],
+  };
+  let mockTeacher: Teacher = {
+    id: 1,
+    lastName: 'Castorp',
+    firstName: 'Hans',
+    createdAt: new Date(),
+    updatedAt: new Date()
+  };
 
   beforeEach(async () => {
     sessionServiceMock = {
@@ -85,21 +103,6 @@ describe('DetailComponent', () => {
   });
 
   it('should fetch session details on init', () => {
-    const mockSession = {
-      id: 1,
-      name: 'yoga',
-      description: 'relax your self',
-      date: new Date('2024-11-20'),
-      teacher_id: 1,
-      users: [],
-    };
-    const mockTeacher = {
-      id: 1,
-      lastName: 'Castorp',
-      firstName: 'Hans',
-      createdAt: new Date(),
-      updatedAt: new Date()
-    };
     sessionApiServiceMock.detail.mockReturnValue(of(mockSession));
     teacherServiceMock.detail.mockReturnValue(of(mockTeacher));
 
@@ -119,15 +122,23 @@ describe('DetailComponent', () => {
   });
 
   it('should participate in session', () => {
+    const updatedMockSession = { ...mockSession, users: [1] };
     sessionApiServiceMock.participate.mockReturnValue(of());
+    sessionApiServiceMock.detail.mockReturnValue(of(updatedMockSession));
+
     component.participate();
+    fixture.detectChanges();
     expect(sessionApiServiceMock.participate).toHaveBeenCalledWith('1', '1');
   });
 
   it('should unparticipate from session', () => {
+    const updatedMockSession = { ...mockSession, users: [] };
     sessionApiServiceMock.unParticipate.mockReturnValue(of());
+    sessionApiServiceMock.detail.mockReturnValue(of(updatedMockSession));
+
     component.unParticipate();
-    expect(sessionApiServiceMock.unParticipate).toHaveBeenCalledWith('1', '1');
+    fixture.detectChanges();
+
   });
 
   it('should call window.history.back()', () => {

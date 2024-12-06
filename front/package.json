@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "start": "ng serve",
-    "test": "jest --coverage",
+    "test": "jest --detectOpenHandles",
     "test:watch": "jest --watch",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -11,11 +11,7 @@
     "e2e:coverage": "npx nyc report --reporter=lcov --reporter=text-summary",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "coverage:jest": "jest --coverage",
-    "coverage:cypress": "npm run e2e:coverage",
-    "coverage:merge": "npx nyc merge coverage && mv coverage.json .nyc_output/out.json",
-    "coverage:report": "npx nyc report --reporter=lcov --reporter=text-summary",
-    "coverage": "npm run coverage:jest && npm run coverage:cypress && npm run coverage:merge && npm run coverage:report"
+    "jest:coverage": "jest --coverage"
   },
   "private": true,
   "dependencies": {
