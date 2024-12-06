@@ -3,14 +3,19 @@
   "version": "0.0.0",
   "scripts": {
     "start": "ng serve",
-    "test": "jest",
+    "test": "jest --coverage",
     "test:watch": "jest --watch",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "e2e:ci": "ng run yoga:e2e-ci",
     "e2e:coverage": "npx nyc report --reporter=lcov --reporter=text-summary",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "coverage:jest": "jest --coverage",
+    "coverage:cypress": "npm run e2e:coverage",
+    "coverage:merge": "npx nyc merge coverage && mv coverage.json .nyc_output/out.json",
+    "coverage:report": "npx nyc report --reporter=lcov --reporter=text-summary",
+    "coverage": "npm run coverage:jest && npm run coverage:cypress && npm run coverage:merge && npm run coverage:report"
   },
   "private": true,
   "dependencies": {
@@ -30,8 +35,8 @@
     "zone.js": "0.11.8"
   },
   "devDependencies": {
-    "@angular-builders/custom-webpack": "^14.0.1",
     "@angular-builders/jest": "14.0.1",
+    "@angular-builders/custom-webpack": "^14.0.1",
     "@angular-devkit/build-angular": "14.2.1",
     "@angular-eslint/builder": "14.0.3",
     "@angular-eslint/eslint-plugin": "14.0.3",
@@ -41,7 +46,7 @@
     "@angular/cli": "14.2.1",
     "@angular/compiler-cli": "14.2.0",
     "@briebug/jest-schematic": "4.0.0",
-    "@cypress/code-coverage": "^3.10.0",
+    "@cypress/code-coverage": "3.10.0",
     "@cypress/schematic": "2.0.3",
     "@istanbuljs/nyc-config-typescript": "1.0.2",
     "@jsdevtools/coverage-istanbul-loader": "3.0.5",

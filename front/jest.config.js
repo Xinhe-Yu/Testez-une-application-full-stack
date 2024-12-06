@@ -6,11 +6,11 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/setup-jest.ts'],
   bail: false,
   verbose: false,
-  collectCoverage: true, // Enable coverage collection
+  collectCoverage: true,
+  coverageReporters: ['lcov', 'text-summary'],
   coverageDirectory: './coverage/jest',
   testPathIgnorePatterns: ['<rootDir>/node_modules/'],
   coveragePathIgnorePatterns: ['<rootDir>/node_modules/'],
-  coverageReporters: ['text', 'text-summary'], // Add "text" for detailed report in the terminal
   coverageThreshold: {
     global: {
       statements: 80

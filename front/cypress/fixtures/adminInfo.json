@@ -1,7 +1,6 @@
 {
   "id": 1,
   "email": "admin@test.fr",
-  "username": "userName",
   "firstName": "firstName",
   "lastName": "lastName",
   "admin": true,
