@@ -23,15 +23,15 @@ Launch Front-end:
 
 ## Ressources
 
-### Mockoon env 
+### Mockoon env
 
 ### Postman collection
 
 For Postman import the collection
 
-> ressources/postman/yoga.postman_collection.json 
+> ressources/postman/yoga.postman_collection.json
 
-by following the documentation: 
+by following the documentation:
 
 https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman
 
@@ -55,7 +55,7 @@ Launching e2e test:
 
 Generate coverage report (you should launch e2e test before):
 
-> npm run e2e:coverage
+> npm run cypress:run && npm run e2e:coverage
 
 Report is available here:
 
@@ -70,3 +70,11 @@ Launching test:
 for following change:
 
 > npm run test:watch
+
+Generate Coverage report:
+
+> npm run jest:coverage
+
+Report is available here:
+
+> front/coverage/jest/lcov-report/index.html

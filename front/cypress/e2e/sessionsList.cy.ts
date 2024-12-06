@@ -24,10 +24,10 @@ describe('Sessions Module', () => {
 
     cy.get('mat-card-title').first().should('contain', 'Rentals available');
     cy.get('mat-card.item').first().within(() => {
-      cy.get('mat-card-title').should('contain', 'yoga');
+      cy.get('mat-card-title').should('contain', 'Yoga Basics');
       cy.get('mat-card-subtitle').should('contain', 'Session on November 20, 2024');
       cy.get('img.picture').should('have.attr', 'src', 'assets/sessions.png');
-      cy.get('mat-card-content p').should('contain', 'relax yourself');
+      cy.get('mat-card-content p').should('contain', 'introductory session to yoga');
       cy.get('button').contains('Detail').should('exist');
     });
   });

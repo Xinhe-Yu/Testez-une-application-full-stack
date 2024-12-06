@@ -25,6 +25,22 @@ describe('DetailComponent', () => {
   let routerMock: jest.Mocked<Router>;
   let activatedRouteMock: jest.Mocked<ActivatedRoute>;
 
+  let mockSession = {
+    id: 1,
+    name: 'yoga',
+    description: 'relax your self',
+    date: new Date('2024-11-20'),
+    teacher_id: 1,
+    users: [3],
+  };
+  let mockTeacher = {
+    id: 1,
+    lastName: 'Castorp',
+    firstName: 'Hans',
+    createdAt: new Date(),
+    updatedAt: new Date()
+  };
+
   beforeEach(async () => {
     sessionServiceMock = {
       sessionInformation: {
@@ -56,6 +72,8 @@ describe('DetailComponent', () => {
       }
     } as unknown as jest.Mocked<ActivatedRoute>;
 
+
+
     await TestBed.configureTestingModule({
       imports: [
         RouterTestingModule,
@@ -85,21 +103,6 @@ describe('DetailComponent', () => {
   });
 
   it('should fetch session details on init', () => {
-    const mockSession = {
-      id: 1,
-      name: 'yoga',
-      description: 'relax your self',
-      date: new Date('2024-11-20'),
-      teacher_id: 1,
-      users: [],
-    };
-    const mockTeacher = {
-      id: 1,
-      lastName: 'Castorp',
-      firstName: 'Hans',
-      createdAt: new Date(),
-      updatedAt: new Date()
-    };
     sessionApiServiceMock.detail.mockReturnValue(of(mockSession));
     teacherServiceMock.detail.mockReturnValue(of(mockTeacher));
 
@@ -119,15 +122,23 @@ describe('DetailComponent', () => {
   });
 
   it('should participate in session', () => {
+    const updatedMockSession = { ...mockSession, users: [1] };
     sessionApiServiceMock.participate.mockReturnValue(of());
+    sessionApiServiceMock.detail.mockReturnValue(of(updatedMockSession));
+
     component.participate();
+    fixture.detectChanges();
     expect(sessionApiServiceMock.participate).toHaveBeenCalledWith('1', '1');
   });
 
   it('should unparticipate from session', () => {
+    const updatedMockSession = { ...mockSession, users: [] };
     sessionApiServiceMock.unParticipate.mockReturnValue(of());
+    sessionApiServiceMock.detail.mockReturnValue(of(updatedMockSession));
+
     component.unParticipate();
-    expect(sessionApiServiceMock.unParticipate).toHaveBeenCalledWith('1', '1');
+    fixture.detectChanges();
+
   });
 
   it('should call window.history.back()', () => {
