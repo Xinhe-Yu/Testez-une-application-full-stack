@@ -13,7 +13,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 class TeacherServiceTest {
-
   private TeacherRepository teacherRepository;
   private TeacherService teacherService;
 
