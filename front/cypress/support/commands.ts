@@ -41,10 +41,10 @@ import { SessionInformation } from '../../src/app/interfaces/sessionInformation.
 import { Session } from '../../src/app/features/sessions/interfaces/session.interface';
 import { Teacher } from '../../src/app/interfaces/teacher.interface';
 
-/// <reference types="cypress" />
 
 type FixtureFileName = string;
 
+/// <reference types="cypress" />
 Cypress.Commands.add('login', (email: string, password: string, sessionFixture: FixtureFileName) => {
   cy.fixture<SessionInformation>(sessionFixture).then((fixture) => {
     cy.intercept('POST', '/api/auth/login', {
