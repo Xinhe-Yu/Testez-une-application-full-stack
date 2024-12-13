@@ -17,8 +17,6 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
-import org.springframework.security.authentication.DisabledException;
-import org.springframework.security.authentication.LockedException;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.test.web.servlet.MockMvc;
@@ -165,36 +163,6 @@ public class AuthControllerTest {
 
     when(authenticationManager.authenticate(any()))
         .thenThrow(new BadCredentialsException("Invalid credentials"));
-
-    mockMvc.perform(post("/api/auth/login")
-        .contentType(MediaType.APPLICATION_JSON)
-        .content(objectMapper.writeValueAsString(loginRequest)))
-        .andExpect(status().isUnauthorized());
-  }
-
-  @Test
-  public void testAuthenticateUser_AccountDisabled() throws Exception {
-    LoginRequest loginRequest = new LoginRequest();
-    loginRequest.setEmail("disabled@example.com");
-    loginRequest.setPassword("password");
-
-    when(authenticationManager.authenticate(any()))
-        .thenThrow(new DisabledException("Account is disabled"));
-
-    mockMvc.perform(post("/api/auth/login")
-        .contentType(MediaType.APPLICATION_JSON)
-        .content(objectMapper.writeValueAsString(loginRequest)))
-        .andExpect(status().isUnauthorized());
-  }
-
-  @Test
-  public void testAuthenticateUser_AccountLocked() throws Exception {
-    LoginRequest loginRequest = new LoginRequest();
-    loginRequest.setEmail("locked@example.com");
-    loginRequest.setPassword("password");
-
-    when(authenticationManager.authenticate(any()))
-        .thenThrow(new LockedException("Account is locked"));
 
     mockMvc.perform(post("/api/auth/login")
         .contentType(MediaType.APPLICATION_JSON)

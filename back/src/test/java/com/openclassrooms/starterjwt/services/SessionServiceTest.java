@@ -18,7 +18,6 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
 class SessionServiceTest {
-
   private SessionRepository sessionRepository;
   private UserRepository userRepository;
   private SessionService sessionService;
