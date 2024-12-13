@@ -61,9 +61,18 @@ describe('Detail Component', () => {
   });
 
 
-  it('should validate required fields', () => {
+  it('should validate required fields for creation', () => {
     cy.login(userEmail, userPassword, adminSession);
     cy.create();
+
+    // Attempt to submit without filling out required fields
+    cy.get('button[type="submit"]').should('be.disabled');
+  });
+
+  it('should validate required fields for update', () => {
+    cy.login(userEmail, userPassword, adminSession);
+    cy.edit();
+    cy.get('input[formControlName="name"]').clear();
 
     // Attempt to submit without filling out required fields
     cy.get('button[type="submit"]').should('be.disabled');
